@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Techtrust — development applications (dry run)</title>
+  <link href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" rel="stylesheet" />
+  <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+  <style>
+    html, body, #map { margin: 0; height: 100%; font-family: system-ui, sans-serif; }
+    #banner {
+      position: absolute; z-index: 2; top: 12px; left: 12px; right: 12px; max-width: 520px;
+      background: rgba(255,255,255,0.94); padding: 10px 14px; border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.15); font-size: 14px; line-height: 1.35;
+    }
+    #banner strong { display: block; margin-bottom: 4px; }
+    .maplibregl-popup-content { font-size: 13px; max-width: 280px; }
+    .maplibregl-popup-content a { color: #0b57d0; }
+  </style>
+</head>
+<body>
+  <div id="banner">
+    <strong>Development applications — dry run 19 Sep 2026</strong>
+    Orange points are Watchman items joined to your WC cadastral centres. Click a marker for the summary. Needs internet once for the MapLibre library and basemap tiles.
+  </div>
+  <div id="map"></div>
+  <script>
+    const appsData = {
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.475493,
+          -33.9827714
+        ]
+      },
+      "properties": {
+        "erf": "16899",
+        "place": "George",
+        "summary": "GM land-use application notice (18 Sep 2026)",
+        "source": "George mun",
+        "url": "https://www.george.gov.za/planning-and-develop/gm-notice-of-land-use-application-for-erf-16899-george/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.5943435,
+          -33.9633046
+        ]
+      },
+      "properties": {
+        "erf": "226",
+        "place": "Hoekwil",
+        "summary": "GM land-use application notice (17 Sep 2026)",
+        "source": "George mun",
+        "url": "https://www.george.gov.za/planning-and-develop/gm-notice-of-land-use-application-for-erf-226-hoekwil/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.4720812,
+          -33.9534379
+        ]
+      },
+      "properties": {
+        "erf": "7173",
+        "place": "George",
+        "summary": "GM land-use application notice (17 Sep 2026)",
+        "source": "George mun",
+        "url": "https://www.george.gov.za/planning-and-develop/gm-notice-of-land-use-application-for-erf-7173-george/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.5618906,
+          -33.9945451
+        ]
+      },
+      "properties": {
+        "erf": "2003",
+        "place": "Wilderness",
+        "summary": "GM land-use application notice (17 Sep 2026)",
+        "source": "George mun",
+        "url": "https://www.george.gov.za/planning-and-develop/gm-notice-of-land-use-application-for-erf-2003-wilderness/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.4664519,
+          -33.9448936
+        ]
+      },
+      "properties": {
+        "erf": "11730",
+        "place": "George",
+        "summary": "GM land-use application notice (16 Sep 2026)",
+        "source": "George mun",
+        "url": "https://www.george.gov.za/planning-and-develop/gm-notice-of-land-use-application-for-erf-11730-george/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.466322,
+          -33.9655202
+        ]
+      },
+      "properties": {
+        "erf": "19695",
+        "place": "George",
+        "summary": "GM land-use application notice (10 Sep 2026)",
+        "source": "George mun",
+        "url": "https://www.george.gov.za/planning-and-develop/gm-notice-of-land-use-application-for-erf-19695-george/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.4417593,
+          -33.948976
+        ]
+      },
+      "properties": {
+        "erf": "4881",
+        "place": "George",
+        "summary": "GM land-use application notice",
+        "source": "George mun",
+        "url": "https://www.george.gov.za/planning-and-develop/gm-notice-of-land-use-application-for-erf-4881-george/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.4324598,
+          -33.9530251
+        ]
+      },
+      "properties": {
+        "erf": "17686",
+        "place": "George",
+        "summary": "GM land-use application notice",
+        "source": "George mun",
+        "url": "https://www.george.gov.za/planning-and-develop/gm-notice-of-land-use-application-for-erf-17686-george/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.5899782,
+          -33.9900445
+        ]
+      },
+      "properties": {
+        "erf": "2122",
+        "place": "Wilderness",
+        "summary": "GM land-use application notice",
+        "source": "George mun",
+        "url": "https://www.george.gov.za/planning-and-develop/gm-notice-of-land-use-application-for-erf-2122-wilderness/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.4463467,
+          -34.0217307
+        ]
+      },
+      "properties": {
+        "erf": "325",
+        "place": "Pacaltsdorp",
+        "summary": "HilLand Draft BAR + temporary builders\u2019-yard departure; PP 21 Sep\u201322 Oct 2026",
+        "source": "HilLand",
+        "url": "https://hilland.co.za/public-processes/erf-325/"
+      }
+    }
+  ]
+};
+    const map = new maplibregl.Map({
+      container: 'map',
+      style: {
+        version: 8,
+        sources: {
+          osm: {
+            type: 'raster',
+            tiles: ['https://tile.openstreetmap.org/{z}/{x}/{y}.png'],
+            tileSize: 256,
+            attribution: '&copy; OpenStreetMap'
+          }
+        },
+        layers: [{ id: 'osm', type: 'raster', source: 'osm' }]
+      },
+      center: [22.48, -33.97],
+      zoom: 11
+    });
+    map.addControl(new maplibregl.NavigationControl(), 'top-right');
+    map.on('load', () => {
+      map.addSource('apps', { type: 'geojson', data: appsData });
+      map.addLayer({
+        id: 'apps-circle',
+        type: 'circle',
+        source: 'apps',
+        paint: {
+          'circle-radius': 8,
+          'circle-color': '#c45c26',
+          'circle-stroke-width': 2,
+          'circle-stroke-color': '#fff'
+        }
+      });
+      map.on('click', 'apps-circle', (e) => {
+        const p = e.features[0].properties;
+        new maplibregl.Popup()
+          .setLngLat(e.lngLat)
+          .setHTML('<strong>Erf ' + p.erf + ' — ' + p.place + '</strong><br/>' + p.summary + '<br/><em>' + p.source + '</em><br/><a href="' + p.url + '" target="_blank" rel="noopener">Open source</a>')
+          .addTo(map);
+      });
+      map.on('mouseenter', 'apps-circle', () => { map.getCanvas().style.cursor = 'pointer'; });
+      map.on('mouseleave', 'apps-circle', () => { map.getCanvas().style.cursor = ''; });
+      const bounds = new maplibregl.LngLatBounds();
+      appsData.features.forEach(f => bounds.extend(f.geometry.coordinates));
+      map.fitBounds(bounds, { padding: 60, maxZoom: 13 });
+    });
+  </script>
+</body>
+</html>

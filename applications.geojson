@@ -1,0 +1,175 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.475493,
+          -33.9827714
+        ]
+      },
+      "properties": {
+        "erf": "16899",
+        "place": "George",
+        "summary": "GM land-use application notice (18 Sep 2026)",
+        "source": "George mun",
+        "url": "https://www.george.gov.za/planning-and-develop/gm-notice-of-land-use-application-for-erf-16899-george/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.5943435,
+          -33.9633046
+        ]
+      },
+      "properties": {
+        "erf": "226",
+        "place": "Hoekwil",
+        "summary": "GM land-use application notice (17 Sep 2026)",
+        "source": "George mun",
+        "url": "https://www.george.gov.za/planning-and-develop/gm-notice-of-land-use-application-for-erf-226-hoekwil/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.4720812,
+          -33.9534379
+        ]
+      },
+      "properties": {
+        "erf": "7173",
+        "place": "George",
+        "summary": "GM land-use application notice (17 Sep 2026)",
+        "source": "George mun",
+        "url": "https://www.george.gov.za/planning-and-develop/gm-notice-of-land-use-application-for-erf-7173-george/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.5618906,
+          -33.9945451
+        ]
+      },
+      "properties": {
+        "erf": "2003",
+        "place": "Wilderness",
+        "summary": "GM land-use application notice (17 Sep 2026)",
+        "source": "George mun",
+        "url": "https://www.george.gov.za/planning-and-develop/gm-notice-of-land-use-application-for-erf-2003-wilderness/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.4664519,
+          -33.9448936
+        ]
+      },
+      "properties": {
+        "erf": "11730",
+        "place": "George",
+        "summary": "GM land-use application notice (16 Sep 2026)",
+        "source": "George mun",
+        "url": "https://www.george.gov.za/planning-and-develop/gm-notice-of-land-use-application-for-erf-11730-george/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.466322,
+          -33.9655202
+        ]
+      },
+      "properties": {
+        "erf": "19695",
+        "place": "George",
+        "summary": "GM land-use application notice (10 Sep 2026)",
+        "source": "George mun",
+        "url": "https://www.george.gov.za/planning-and-develop/gm-notice-of-land-use-application-for-erf-19695-george/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.4417593,
+          -33.948976
+        ]
+      },
+      "properties": {
+        "erf": "4881",
+        "place": "George",
+        "summary": "GM land-use application notice",
+        "source": "George mun",
+        "url": "https://www.george.gov.za/planning-and-develop/gm-notice-of-land-use-application-for-erf-4881-george/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.4324598,
+          -33.9530251
+        ]
+      },
+      "properties": {
+        "erf": "17686",
+        "place": "George",
+        "summary": "GM land-use application notice",
+        "source": "George mun",
+        "url": "https://www.george.gov.za/planning-and-develop/gm-notice-of-land-use-application-for-erf-17686-george/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.5899782,
+          -33.9900445
+        ]
+      },
+      "properties": {
+        "erf": "2122",
+        "place": "Wilderness",
+        "summary": "GM land-use application notice",
+        "source": "George mun",
+        "url": "https://www.george.gov.za/planning-and-develop/gm-notice-of-land-use-application-for-erf-2122-wilderness/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.4463467,
+          -34.0217307
+        ]
+      },
+      "properties": {
+        "erf": "325",
+        "place": "Pacaltsdorp",
+        "summary": "HilLand Draft BAR + temporary builders\u2019-yard departure; PP 21 Sep\u201322 Oct 2026",
+        "source": "HilLand",
+        "url": "https://hilland.co.za/public-processes/erf-325/"
+      }
+    }
+  ]
+}
