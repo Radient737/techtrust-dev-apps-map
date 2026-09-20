@@ -25,26 +25,33 @@
       padding: 6px 10px; font-size: 13px; cursor: pointer;
     }
     #basemap button.active {
-      background: #c45c26; color: #fff; border-color: #8a3a12;
+      background: #c8e000; color: #111; border-color: #8fa000; font-weight: 600;
     }
     #basemap button:hover:not(.active) { background: #f3f3f3; }
-    .maplibregl-popup-content { font-size: 13px; max-width: 300px; }
+    .maplibregl-popup-content { font-size: 13px; max-width: 320px; }
     .maplibregl-popup-content a { color: #0b57d0; }
+    .maplibregl-popup-content .packs { margin-top: 6px; padding-top: 6px; border-top: 1px solid #e0e0e0; }
+    .maplibregl-popup-content .packs a { display: block; margin: 2px 0; word-break: break-word; }
   </style>
 </head>
 <body>
   <div id="banner">
     <strong>Development applications — dry run 19 Sep 2026</strong>
-    Orange fill is the erf outline from George mun zoning parcels. Click a property for the summary. Use the basemap buttons to switch terrain / streets / satellite.
+    Neon yellow outlines are George mun zoning parcels. Click a property for the summary and pack PDFs (municipality links). Default basemap is satellite.
   </div>
   <div id="basemap" role="group" aria-label="Basemap">
-    <button type="button" data-basemap="topo" class="active">Topo</button>
+    <button type="button" data-basemap="satellite" class="active">Satellite</button>
+    <button type="button" data-basemap="topo">Topo</button>
     <button type="button" data-basemap="streets">Streets</button>
-    <button type="button" data-basemap="satellite">Satellite</button>
   </div>
   <div id="map"></div>
   <script>
     const BASEMAPS = {
+      satellite: {
+        tiles: ['https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}'],
+        attribution: 'Tiles &copy; Esri',
+        maxzoom: 19
+      },
       topo: {
         tiles: [
           'https://a.tile.opentopomap.org/{z}/{x}/{y}.png',
@@ -58,33 +65,38 @@
         tiles: ['https://tile.openstreetmap.org/{z}/{x}/{y}.png'],
         attribution: '&copy; OpenStreetMap',
         maxzoom: 19
-      },
-      satellite: {
-        tiles: ['https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}'],
-        attribution: 'Tiles &copy; Esri',
-        maxzoom: 19
       }
     };
 
-    const DEFAULT_BASEMAP = 'topo';
+    const DEFAULT_BASEMAP = 'satellite';
+    let docsIndex = { by_key: {} };
 
     const map = new maplibregl.Map({
       container: 'map',
-      style: {
-        version: 8,
-        sources: {},
-        layers: []
-      },
+      style: { version: 8, sources: {}, layers: [] },
       center: [22.48, -33.97],
       zoom: 11
     });
     map.addControl(new maplibregl.NavigationControl(), 'top-right');
 
+    function packsHtml(erf) {
+      const entry = docsIndex.by_key && docsIndex.by_key[String(erf)];
+      if (!entry || !entry.files || !entry.files.length) {
+        return '<div class="packs"><em>No pack PDF indexed yet</em></div>';
+      }
+      const links = entry.files.map((f, i) => {
+        const label = entry.files.length > 1 ? ('Pack part ' + (i + 1) + ' — ' + f.name) : ('Open pack — ' + f.name);
+        return '<a href="' + f.url + '" target="_blank" rel="noopener">' + label + '</a>';
+      }).join('');
+      return '<div class="packs"><strong>Submission packs</strong>' + links + '</div>';
+    }
+
     function popupHtml(p) {
       const zoning = p.mun_zoning ? '<br/><span style="color:#555">Zoning: ' + p.mun_zoning + '</span>' : '';
       return '<strong>Erf ' + p.erf + ' — ' + p.place + '</strong><br/>' + p.summary +
         '<br/><em>' + p.source + '</em>' + zoning +
-        '<br/><a href="' + p.url + '" target="_blank" rel="noopener">Open source</a>';
+        '<br/><a href="' + p.url + '" target="_blank" rel="noopener">Open notice / source page</a>' +
+        packsHtml(p.erf);
     }
 
     function bindPopup(layerId) {
@@ -129,15 +141,20 @@
         });
       });
 
-      const appsData = await fetch('applications.geojson').then(r => r.json());
+      const [appsData, docs] = await Promise.all([
+        fetch('applications.geojson').then(r => r.json()),
+        fetch('docs-index.json').then(r => r.json()).catch(() => ({ by_key: {} }))
+      ]);
+      docsIndex = docs;
+
       map.addSource('apps', { type: 'geojson', data: appsData });
       map.addLayer({
         id: 'apps-fill',
         type: 'fill',
         source: 'apps',
         paint: {
-          'fill-color': '#c45c26',
-          'fill-opacity': 0.35
+          'fill-color': '#e8ff00',
+          'fill-opacity': 0.45
         }
       });
       map.addLayer({
@@ -145,8 +162,9 @@
         type: 'line',
         source: 'apps',
         paint: {
-          'line-color': '#8a3a12',
-          'line-width': 2
+          'line-color': '#ffff33',
+          'line-width': 3,
+          'line-opacity': 1
         }
       });
       bindPopup('apps-fill');
