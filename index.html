@@ -37,7 +37,7 @@
 <body>
   <div id="banner">
     <strong>Development applications — dry run 19 Sep 2026</strong>
-    Neon yellow outlines are George mun zoning parcels. Click a property for the summary and pack PDFs (municipality links). Default basemap is satellite.
+    Neon yellow outlines are George mun zoning parcels. Click a property for what was applied for and pack PDFs. Default basemap is satellite.
   </div>
   <div id="basemap" role="group" aria-label="Basemap">
     <button type="button" data-basemap="satellite" class="active">Satellite</button>
@@ -92,10 +92,12 @@
     }
 
     function popupHtml(p) {
-      const zoning = p.mun_zoning ? '<br/><span style="color:#555">Zoning: ' + p.mun_zoning + '</span>' : '';
-      return '<strong>Erf ' + p.erf + ' — ' + p.place + '</strong><br/>' + p.summary +
-        '<br/><em>' + p.source + '</em>' + zoning +
-        '<br/><a href="' + p.url + '" target="_blank" rel="noopener">Open notice / source page</a>' +
+      const purpose = p.purpose || p.summary || '';
+      const zoning = p.mun_zoning ? '<div style="color:#555;margin-top:4px">Current zoning: ' + p.mun_zoning + '</div>' : '';
+      return '<strong>Erf ' + p.erf + ' — ' + p.place + '</strong>' +
+        '<div style="margin-top:6px;line-height:1.35"><strong>Applied for:</strong> ' + purpose + '</div>' +
+        '<div style="margin-top:4px"><em>' + p.source + '</em></div>' + zoning +
+        '<div style="margin-top:6px"><a href="' + p.url + '" target="_blank" rel="noopener">Open notice / source page</a></div>' +
         packsHtml(p.erf);
     }
 
