@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-28T08:40:00+02:00",
+  "updated": "2026-09-28T16:30:00+02:00",
   "local_root": "C:\\Users\\pierr\\OneDrive\\LUSubmissions",
   "note": "Pack links are public George municipality PDF URLs. Local OneDrive folder is the working copy.",
   "by_key": {
@@ -310,6 +310,16 @@
         }
       ],
       "title": "GM Submission of Land use application for Erf 13164, George"
+    },
+    "Farm179-RE-Melsetter": {
+      "folder": "Farm179-RE-Melsetter",
+      "files": [
+        {
+          "name": "REMAINDER-FARM-MELSETTER179-.pdf",
+          "url": "https://www.george.gov.za/wp-content/uploads/2026/09/REMAINDER-FARM-MELSETTER179-.pdf"
+        }
+      ],
+      "title": "GM Submission of Land use application for Farm RE/179, Melsetter"
     }
   }
 }
