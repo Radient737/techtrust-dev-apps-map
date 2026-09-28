@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-20T10:39:34+02:00",
+  "updated": "2026-09-28T08:40:00+02:00",
   "local_root": "C:\\Users\\pierr\\OneDrive\\LUSubmissions",
   "note": "Pack links are public George municipality PDF URLs. Local OneDrive folder is the working copy.",
   "by_key": {
@@ -280,6 +280,36 @@
         }
       ],
       "title": "GM Submission of Land use application for Farm 208 Ptn 110, George Rural (Part 1 of 4)"
+    },
+    "129": {
+      "folder": "129-Pacaltsdorp",
+      "files": [
+        {
+          "name": "Erf-129_Pacaltsdorp_Motivational-Report-combined-1.pdf",
+          "url": "https://www.george.gov.za/wp-content/uploads/2026/09/Erf-129_Pacaltsdorp_Motivational-Report-combined-1.pdf"
+        }
+      ],
+      "title": "GM Submission of Land use application for Erf 129, Pacaltsdorp"
+    },
+    "979": {
+      "folder": "979-Wilderness",
+      "files": [
+        {
+          "name": "Erf-979-Wilderness_LU-Application.pdf",
+          "url": "https://www.george.gov.za/wp-content/uploads/2026/09/Erf-979-Wilderness_LU-Application.pdf"
+        }
+      ],
+      "title": "GM Submission of Land use application for Erf 979, Wilderness"
+    },
+    "13164": {
+      "folder": "13164-George",
+      "files": [
+        {
+          "name": "Erf-13164-George-Complete-application.pdf",
+          "url": "https://www.george.gov.za/wp-content/uploads/2026/09/Erf-13164-George-Complete-application.pdf"
+        }
+      ],
+      "title": "GM Submission of Land use application for Erf 13164, George"
     }
   }
 }
