@@ -36,7 +36,7 @@
 </head>
 <body>
   <div id="banner">
-    <strong>Development applications — 20 Sep 2026</strong>
+    <strong>Development applications<span id="updated"></span></strong>
     Neon yellow outlines are current George mun + EAP application parcels. Click a property for what was applied for and pack PDFs. Default basemap is satellite.
   </div>
   <div id="basemap" role="group" aria-label="Basemap">
@@ -69,6 +69,35 @@
     };
 
     const DEFAULT_BASEMAP = 'satellite';
+
+    // "Updated" date: meta.json is stamped by scripts/stamp_updated.py on every publish.
+    // Fallback: newest "added" date in the data, then docs-index "updated".
+    const MONTHS = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+    function fmtDate(iso) {
+      const m = /^(\d{4})-(\d{2})-(\d{2})/.exec(iso || '');
+      return m ? (Number(m[3]) + ' ' + MONTHS[Number(m[2]) - 1] + ' ' + m[1]) : null;
+    }
+    function showUpdated(iso, title) {
+      const txt = fmtDate(iso);
+      if (!txt) return false;
+      const el = document.getElementById('updated');
+      el.textContent = ' — Updated ' + txt;
+      if (title) el.title = title;
+      return true;
+    }
+    const metaLoaded = fetch('meta.json?v=' + Date.now(), { cache: 'no-store' })
+      .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+      .then(m => showUpdated(m.last_updated, 'Last updated ' + (m.last_updated_display || m.last_updated) +
+        (m.feature_count ? ' · ' + m.feature_count + ' properties' : '')))
+      .catch(() => false);
+    function fallbackUpdated(appsData, docs) {
+      metaLoaded.then(ok => {
+        if (ok) return;
+        const added = (appsData.features || []).map(f => f.properties && f.properties.added).filter(Boolean).sort();
+        const newest = added.length ? added[added.length - 1] : (docs && docs.updated);
+        showUpdated(newest, 'Newest item in the data');
+      });
+    }
     let docsIndex = { by_key: {} };
 
     const map = new maplibregl.Map({
@@ -148,6 +177,7 @@
         fetch('docs-index.json').then(r => r.json()).catch(() => ({ by_key: {} }))
       ]);
       docsIndex = docs;
+      fallbackUpdated(appsData, docs);
 
       map.addSource('apps', { type: 'geojson', data: appsData });
       map.addLayer({
