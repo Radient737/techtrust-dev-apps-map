@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
-# Safety net: if applications.geojson or docs-index.json is being committed without
+# Safety net: if applications.geojson, docs-index.json or news.geojson is being committed without
 # a fresh meta.json, stamp meta.json now (SAST) and add it to the commit.
 # Install once per clone:  git config core.hooksPath hooks
 [ -n "${SKIP_STAMP:-}" ] && exit 0
 staged=$(git diff --cached --name-only)
-if echo "$staged" | grep -qE '^(applications\.geojson|docs-index\.json)$' && \
+if echo "$staged" | grep -qE '^(applications\.geojson|docs-index\.json|news\.geojson)$' && \
    ! echo "$staged" | grep -qx 'meta.json'; then
   python3 scripts/stamp_updated.py && git add meta.json
 fi

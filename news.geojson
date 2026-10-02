@@ -1,0 +1,401 @@
+{
+ "type": "FeatureCollection",
+ "name": "news",
+ "updated": "2026-10-02",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     22.472361,
+     -33.953061
+    ]
+   },
+   "properties": {
+    "id": "703dc92ecb4b",
+    "headline": "Môreson applies to rezone portions of its property for group housing development",
+    "date": "2026-09-10",
+    "outlet": "George Herald",
+    "url": "https://www.georgeherald.com/News/Article/Local-News/moreson-applies-to-rezone-portions-of-its-property-for-group-housing-development-202609090223",
+    "summary": "Rezoning/subdivision of RE Erf 7173 (Môreson Child & Youth Care Centre) for 37 group-housing units (2 storeys, 127 bays); land to be sold to a developer to fund the centre. Neighbours object; Nel & De Kock Town Planners act for Môreson.",
+    "place": "Môreson, Petunia St area (Kat River), George",
+    "erf": "RE Erf 7173",
+    "developer": "Môreson (owner) – Nel & De Kock Town Planners; buyer/developer not yet named",
+    "classification": "Possible prospect",
+    "map_link": "Erf 7173 (same application already on the map)",
+    "location_source": "Centroid of Erf 7173 from applications.geojson",
+    "also_urls": [],
+    "first_seen": "2026-10-02",
+    "located": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     23.0930556,
+     -34.0486111
+    ]
+   },
+   "properties": {
+    "id": "fe165a2f84e5",
+    "headline": "Forever homes in sight for 61 Hornlee families",
+    "date": "2026-09-17",
+    "outlet": "Knysna-Plett Herald",
+    "url": "https://www.knysnaplettherald.com/News/Article/Local-News/forever-homes-in-sight-for-61-hornlee-families-202609160353",
+    "summary": "Knysna handed over 61 plot-to-plan sites on Erf 3339 (Fisherhaven/Rykmanshoogte/Hornlee); beneficiaries may now draw up building plans, deposits due 1 Oct–31 Dec.",
+    "place": "Hornlee, Knysna",
+    "erf": "Erf 3339 (Knysna)",
+    "developer": "Knysna Municipality (Human Settlements); 61 individual owners",
+    "classification": "Possible prospect",
+    "map_link": "",
+    "location_source": "Nominatim: Hornlee, Knysna (suburb, approximate)",
+    "also_urls": [],
+    "first_seen": "2026-10-02",
+    "located": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": null,
+   "properties": {
+    "id": "d6738232d9fa",
+    "headline": "Safe space plan for George's homeless",
+    "date": "2026-09-10",
+    "outlet": "George Herald",
+    "url": "https://www.georgeherald.com/News/Article/Local-News/safe-space-plan-for-george-s-homeless-202609090151",
+    "summary": "Working committee (municipality, Cremhog, business chamber, SAPS) prioritises a central low-entry overnight safe space and a first-contact service point; a CID, rehab centre and elderly sub-economic housing are longer-term ideas. No site chosen yet.",
+    "place": "George CBD (site not yet identified)",
+    "erf": "",
+    "developer": "Cremhog / George Municipality working committee; possible new NPO or CID",
+    "classification": "Possible prospect",
+    "map_link": "",
+    "location_source": "",
+    "also_urls": [],
+    "first_seen": "2026-10-02",
+    "located": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     22.5040744,
+     -33.9870182
+    ]
+   },
+   "properties": {
+    "id": "dadc637b80c1",
+    "headline": "Tyremart Commercial is in town! New name, same trusted team",
+    "date": "2026-10-01",
+    "outlet": "George Herald (advertorial)",
+    "url": "https://www.georgeherald.com/News/Article/Business/tyremart-commercial-is-in-town-new-name-same-trusted-team-202609300206",
+    "summary": "Tyres & Treads Group rebrands its 22 Pioneer Road branch and says plans are under way for a new Tyremart outlet at the Garden Route Mall.",
+    "place": "Garden Route Mall, George (planned outlet)",
+    "erf": "",
+    "developer": "Tyres & Treads Group",
+    "classification": "Possible prospect",
+    "map_link": "",
+    "location_source": "Nominatim: Garden Route Mall",
+    "also_urls": [],
+    "first_seen": "2026-10-02",
+    "located": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": null,
+   "properties": {
+    "id": "3013cf81a04f",
+    "headline": "Eden House: From dream to reality",
+    "date": "2026-09-07",
+    "outlet": "Knysna-Plett Herald",
+    "url": "https://www.knysnaplettherald.com/News/Article/Local-News/eden-house-from-dream-to-reality-202609070840",
+    "summary": "NPC has raised the full R2.75m to buy a property for Eden House, a planned registered children's home in Knysna; the home still has to be set up.",
+    "place": "Knysna (property not named)",
+    "erf": "",
+    "developer": "Eden House NPC",
+    "classification": "Possible prospect",
+    "map_link": "",
+    "location_source": "",
+    "also_urls": [],
+    "first_seen": "2026-10-02",
+    "located": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     22.496926,
+     -33.986693
+    ]
+   },
+   "properties": {
+    "id": "7080b4f6ed71",
+    "headline": "Concern over impact of multi-storey flats next to Blue Mountain",
+    "date": "2026-09-09",
+    "outlet": "George Herald",
+    "url": "https://www.georgeherald.com/News/Article/Local-News/concern-over-impact-of-multi-storey-flats-next-to-blue-mountain-202609091206",
+    "summary": "GRRA public meeting on Century Property Developments' bid to rezone Erf 28005 (5.7ha, Park Rd/Platinum Dr) from Business I to General Residential IV for ±680 rental flats in 18 three-/four-storey blocks; building line moved to 20m; still in public participation.",
+    "place": "Behind Builders Warehouse, Park Rd / Platinum Dr, George",
+    "erf": "Erf 28005",
+    "developer": "Century Property Developments (rep. Japie Vos)",
+    "classification": "Future development to watch",
+    "map_link": "Erf 28005 (same application already on the map)",
+    "location_source": "Centroid of Erf 28005 from applications.geojson",
+    "also_urls": [],
+    "first_seen": "2026-10-02",
+    "located": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": null,
+   "properties": {
+    "id": "6e81ec61ddc6",
+    "headline": "Controversial Building Control By-law repealed",
+    "date": "2026-09-17",
+    "outlet": "George Herald",
+    "url": "https://www.georgeherald.com/News/Article/Local-News/controversial-building-control-by-law-repealed-202609160314",
+    "summary": "Council repealed the 2023 Building Control By-law (25 Aug); a new by-law will drop minor works from plan approval, add simplified \"Category 1\" low-income/backyard buildings and align occupancy certificates with the NBR. Public engagement to follow.",
+    "place": "George Municipality (municipal-wide)",
+    "erf": "",
+    "developer": "George Municipality",
+    "classification": "Future development to watch",
+    "map_link": "",
+    "location_source": "",
+    "also_urls": [],
+    "first_seen": "2026-10-02",
+    "located": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": null,
+   "properties": {
+    "id": "85b181337aa9",
+    "headline": "George water security under pressure as population grows",
+    "date": "2026-09-17",
+    "outlet": "George Herald",
+    "url": "https://www.georgeherald.com/News/Article/Local-News/george-water-security-under-pressure-as-population-grows-202609160256",
+    "summary": "No blanket moratorium on major developments, but larger developments must carry enforceable water demand management plans (efficient fittings, metering, rainwater tanks, indigenous landscaping). Treatment capacity now ~60 Ml/day.",
+    "place": "George Municipality (municipal-wide)",
+    "erf": "",
+    "developer": "George Municipality",
+    "classification": "Future development to watch",
+    "map_link": "",
+    "location_source": "",
+    "also_urls": [],
+    "first_seen": "2026-10-02",
+    "located": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     22.436847,
+     -33.9672124
+    ]
+   },
+   "properties": {
+    "id": "fc9e8ea1055b",
+    "headline": "Plattner Boulevard's first phase complete, with more upgrades to come",
+    "date": "2026-09-11",
+    "outlet": "George Herald",
+    "url": "https://www.georgeherald.com/News/Article/Local-News/plattner-boulevard-s-first-phase-complete-with-more-upgrades-to-come-202609090259",
+    "summary": "Phase 1 rehabilitation reopened 5 Sep; phase 2 (Barkhuizen Dr–Victor Smith Cres) depends on funding, phase 3 (to York St) needs access/capacity issues solved first.",
+    "place": "Plattner Boulevard, George",
+    "erf": "",
+    "developer": "George Municipality",
+    "classification": "Future development to watch",
+    "map_link": "",
+    "location_source": "Nominatim: Plattner Boulevard",
+    "also_urls": [],
+    "first_seen": "2026-10-02",
+    "located": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": null,
+   "properties": {
+    "id": "dd2e7882280b",
+    "headline": "Council considers impact of labour costs on IUDG-funded projects",
+    "date": "2026-09-28",
+    "outlet": "George Municipality (media release)",
+    "url": "https://www.george.gov.za/council-considers-impact-of-labour-costs-on-iudg-funded-projects/",
+    "also_urls": [
+     "https://www.georgeherald.com/News/Article/Local-News/wage-proposal-sparks-debate-over-jobs-and-infrastructure-202609290956"
+    ],
+    "summary": "Special council (28 Sep) adopted the 2026/27 Consolidated Capital Expenditure Framework that ranks infrastructure priorities for IUDG funding; PA wage proposal debated. Projects still need annual budget approval. (George Herald covered it 29 Sep.)",
+    "place": "George Municipality (municipal-wide)",
+    "erf": "",
+    "developer": "George Municipality",
+    "classification": "Future development to watch",
+    "map_link": "",
+    "location_source": "",
+    "first_seen": "2026-10-02",
+    "located": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     22.3753585,
+     -34.0050674
+    ]
+   },
+   "properties": {
+    "id": "3379ba66e52a",
+    "headline": "GO GEORGE activates trial route to airport",
+    "date": "2026-09-22",
+    "outlet": "George Municipality (media release)",
+    "url": "https://www.george.gov.za/go-george-activates-trial-route-to-airport/",
+    "also_urls": [
+     "https://www.georgeherald.com/News/Article/Local-News/new-go-george-route-puts-george-airport-on-the-bus-network-202609220427"
+    ],
+    "summary": "Route 19 Airport trial (CBD transport hub to George Airport via MediClinic) started 20 Sep, 05:00–20:00 daily; more stops may follow. (George Herald covered it 22 Sep.)",
+    "place": "George Airport / CBD",
+    "erf": "",
+    "developer": "George Municipality / Western Cape Mobility (GIPTN)",
+    "classification": "Future development to watch",
+    "map_link": "",
+    "location_source": "Nominatim: George Airport",
+    "first_seen": "2026-10-02",
+    "located": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": null,
+   "properties": {
+    "id": "1251351742a3",
+    "headline": "R26m boost for Garden Route disaster repairs",
+    "date": "2026-09-17",
+    "outlet": "George Herald",
+    "url": "https://www.georgeherald.com/News/Article/Local-News/r26m-boost-for-garden-route-disaster-repairs-202609160647",
+    "summary": "Municipal Disaster Response Grant: George gets R5m, mainly for the Haarlem Dam–Uniondale main water line; 6 months to spend.",
+    "place": "Haarlem–Uniondale (George Municipality)",
+    "erf": "",
+    "developer": "George Municipality / GRDM",
+    "classification": "Future development to watch",
+    "map_link": "Related to (not the same as) the Uniondale water-network item (Erf 354)",
+    "location_source": "",
+    "also_urls": [],
+    "first_seen": "2026-10-02",
+    "located": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     22.5925411,
+     -33.9969567
+    ]
+   },
+   "properties": {
+    "id": "5fcac5e0fef3",
+    "headline": "Drone survey planned for Wilderness Beach as part of coastal dune rehabilitation plan",
+    "date": "2026-09-11",
+    "outlet": "George Herald (municipal notice)",
+    "url": "https://www.georgeherald.com/Municipal-Notices/Article/General-Notices/drone-survey-planned-for-wilderness-beach-as-part-of-coastal-dune-rehabilitation-plan-202609110902",
+    "summary": "Baseline drone survey (15 Sep) for a coastal dune rehabilitation and maintenance management plan for part of Wilderness Beach; may affect future beachfront works.",
+    "place": "Wilderness Beach",
+    "erf": "",
+    "developer": "George Municipality",
+    "classification": "Future development to watch",
+    "map_link": "",
+    "location_source": "Nominatim: Wilderness Beach",
+    "also_urls": [],
+    "first_seen": "2026-10-02",
+    "located": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     22.7733833,
+     -34.0241167
+    ]
+   },
+   "properties": {
+    "id": "f6a769380cc3",
+    "headline": "Is Swartvlei for sale?",
+    "date": "2026-09-09",
+    "outlet": "The Edge (Sedgefield)",
+    "url": "https://www.edgenews.co.za/is-swartvlei-for-sale/",
+    "summary": "GRDM plans to sell Portion 0 of Farm 185 (Swartvlei Beach property, expected R15.9m) and RE Erf 1297 Kleinkrantz/Wilderness (R30m, SANParks talks); Save Our Sedgefield is pursuing legal remedies.",
+    "place": "Swartvlei peninsula, Sedgefield; Kleinkrantz (Wilderness)",
+    "erf": "Portion 0 of Farm 185; RE Erf 1297 Wilderness",
+    "developer": "Garden Route District Municipality (seller)",
+    "classification": "Future development to watch",
+    "map_link": "",
+    "location_source": "Nominatim: Swartvlei Caravan Park (approximate)",
+    "also_urls": [],
+    "first_seen": "2026-10-02",
+    "located": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": null,
+   "properties": {
+    "id": "4e6debf0c6e7",
+    "headline": "Aalwyndal: Development deadlock",
+    "date": "2026-09-26",
+    "outlet": "Mossel Bay Advertiser",
+    "url": "https://www.mosselbayadvertiser.com/News/Article/Local-News/aalwyndal-development-deadlock-202609240309",
+    "summary": "600ha Aalwyndal urban-expansion area (SDF 2018/2022) is stalled: council deferred the draft biodiversity/offset study; landowners want to be consulted.",
+    "place": "Aalwyndal, Mossel Bay",
+    "erf": "",
+    "developer": "Mossel Bay Municipality / DEADP / landowners",
+    "classification": "Future development to watch",
+    "map_link": "",
+    "location_source": "",
+    "also_urls": [],
+    "first_seen": "2026-10-02",
+    "located": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     22.0818354,
+     -34.175906
+    ]
+   },
+   "properties": {
+    "id": "3d3e19ce1eba",
+    "headline": "Serious structural concerns for current Kwa station",
+    "date": "2026-09-21",
+    "outlet": "Mossel Bay Advertiser",
+    "url": "https://www.mosselbayadvertiser.com/News/Article/Local-News/serious-structural-concerns-for-current-kwa-station-202609210813",
+    "summary": "KwaNonqaba police station failed a health inspection; a land exchange (17 Aug) between Mossel Bay Municipality and Public Works is the first step towards a long-awaited new station.",
+    "place": "KwaNonqaba, Mossel Bay",
+    "erf": "",
+    "developer": "National Department of Public Works / SAPS",
+    "classification": "Future development to watch",
+    "map_link": "",
+    "location_source": "Nominatim: KwaNonqaba (suburb, approximate)",
+    "also_urls": [],
+    "first_seen": "2026-10-02",
+    "located": true
+   }
+  }
+ ]
+}

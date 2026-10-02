@@ -18,13 +18,14 @@ ROOT = Path(__file__).resolve().parent.parent
 META = ROOT / "meta.json"
 GEOJSON = ROOT / "applications.geojson"
 DOCS = ROOT / "docs-index.json"
+NEWS = ROOT / "news.geojson"
 SAST = timezone(timedelta(hours=2), "SAST")  # South Africa has no DST
 
 
 def from_git() -> datetime:
     out = subprocess.check_output(
         ["git", "-C", str(ROOT), "log", "-1", "--format=%aI", "--",
-         GEOJSON.name, DOCS.name],
+         GEOJSON.name, DOCS.name, NEWS.name],
         text=True,
     ).strip()
     if not out:
@@ -55,12 +56,19 @@ def main() -> None:
     except Exception:
         pass
 
+    news_count = None
+    try:
+        news_count = len(json.loads(NEWS.read_text(encoding="utf-8"))["features"])
+    except Exception:
+        pass
+
     meta = {
         "last_updated": ts.isoformat(),
         "last_updated_date": ts.date().isoformat(),
         "last_updated_display": f"{ts.day} {ts.strftime('%b %Y')}, {ts.strftime('%H:%M')} SAST",
         "timezone": "Africa/Johannesburg",
         "feature_count": count,
+        "news_count": news_count,
     }
     META.write_text(json.dumps(meta, indent=2) + "\n", encoding="utf-8")
     print(f"meta.json stamped: {meta['last_updated']} ({count} features)")
