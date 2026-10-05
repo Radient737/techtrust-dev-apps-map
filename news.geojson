@@ -1,7 +1,7 @@
 {
  "type": "FeatureCollection",
  "name": "news",
- "updated": "2026-10-02",
+ "updated": "2026-10-05",
  "features": [
   {
    "type": "Feature",
@@ -394,6 +394,54 @@
     "location_source": "Nominatim: KwaNonqaba (suburb, approximate)",
     "also_urls": [],
     "first_seen": "2026-10-02",
+    "located": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": null,
+   "properties": {
+    "id": "9c2680844a8f",
+    "headline": "South Cape College partnership brings TVET plans to Knysna",
+    "date": "2026-10-02",
+    "outlet": "Knysna-Plett Herald",
+    "url": "https://www.knysnaplettherald.com/News/Article/Local-News/south-cape-college-partnership-brings-tvet-plans-to-knysna-202610021159",
+    "summary": "Knysna Municipality, with South Cape College, has earmarked municipal land in the heart of Knysna for a new TVET college; more details on the proposed development promised in the next edition. Watch: public education building, out of George, site and professional team not yet named.",
+    "place": "Knysna town centre (site not yet identified)",
+    "erf": "",
+    "developer": "Knysna Municipality / South Cape College",
+    "classification": "Future development to watch",
+    "map_link": "",
+    "location_source": "",
+    "also_urls": [],
+    "first_seen": "2026-10-05",
+    "located": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     21.261473,
+     -34.094907
+    ]
+   },
+   "properties": {
+    "id": "b9c551c7db5b",
+    "headline": "Raad trek streep deur Jurischpark-planne",
+    "date": "2026-10-02",
+    "outlet": "Suid-Kaap Forum",
+    "url": "https://www.suidkaapforum.com/News/Article/Local-News/raad-trek-streep-deur-jurischpark-planne-202610020832",
+    "summary": "Hessequa council on 29 Sep 2026 rejected the application by Dorpstraat Convenient Retail Investments (Edms.) Bpk. to acquire about 37 170 m² of Erf 2080 (Jurischpark, Riversdale) for a shopping centre with residential units, after strong public objection; the park stays as is. Watch: contested municipal land sale, out of George area.",
+    "place": "Jurischpark, Riversdale (Hessequa)",
+    "erf": "Erf 2080 (Riversdale)",
+    "developer": "Dorpstraat Convenient Retail Investments (Edms.) Bpk. (applicant; rejected)",
+    "classification": "Future development to watch",
+    "map_link": "",
+    "location_source": "Nominatim: Riversdale, Western Cape (town, approximate; park not in OSM)",
+    "also_urls": [],
+    "first_seen": "2026-10-05",
     "located": true
    }
   }
