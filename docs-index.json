@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-28T16:30:00+02:00",
+  "updated": "2026-10-05T08:14:57+02:00",
   "local_root": "C:\\Users\\pierr\\OneDrive\\LUSubmissions",
   "note": "Pack links are public George municipality PDF URLs. Local OneDrive folder is the working copy.",
   "by_key": {
@@ -320,6 +320,35 @@
         }
       ],
       "title": "GM Submission of Land use application for Farm RE/179, Melsetter"
+    },
+    "8477": {
+      "folder": "8477-Pacaltsdorp",
+      "files": [
+        {
+          "name": "Erf-8477-Pacaltsdorp-Advert.docx",
+          "url": "https://www.george.gov.za/wp-content/uploads/2026/09/Erf-8477-Pacaltsdorp-Advert.docx"
+        },
+        {
+          "name": "Erf-8477-Pacaltsdorp-Complete-application.pdf",
+          "url": "https://www.george.gov.za/wp-content/uploads/2026/09/Erf-8477-Pacaltsdorp-Complete-application.pdf"
+        }
+      ],
+      "title": "GM Submission of Land use application for Erf 8477, Pacaltsdorp (listed as Erf 8447, George)"
+    },
+    "8447": {
+      "folder": "8477-Pacaltsdorp",
+      "files": [
+        {
+          "name": "Erf-8477-Pacaltsdorp-Advert.docx",
+          "url": "https://www.george.gov.za/wp-content/uploads/2026/09/Erf-8477-Pacaltsdorp-Advert.docx"
+        },
+        {
+          "name": "Erf-8477-Pacaltsdorp-Complete-application.pdf",
+          "url": "https://www.george.gov.za/wp-content/uploads/2026/09/Erf-8477-Pacaltsdorp-Complete-application.pdf"
+        }
+      ],
+      "title": "Mis-titled post: Erf 8447 George → actual Erf 8477 Pacaltsdorp (see key 8477)",
+      "alias_of": "8477"
     }
   }
 }
