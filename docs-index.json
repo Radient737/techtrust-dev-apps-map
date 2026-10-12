@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-05T08:14:57+02:00",
+  "updated": "2026-10-12T08:00:00+02:00",
   "local_root": "C:\\Users\\pierr\\OneDrive\\LUSubmissions",
   "note": "Pack links are public George municipality PDF URLs. Local OneDrive folder is the working copy.",
   "by_key": {
@@ -349,6 +349,48 @@
       ],
       "title": "Mis-titled post: Erf 8447 George → actual Erf 8477 Pacaltsdorp (see key 8477)",
       "alias_of": "8477"
+    },
+    "2795": {
+      "folder": "2795-George",
+      "files": [
+        {
+          "name": "Erf-2795-George-Advert.docx",
+          "url": "https://www.george.gov.za/wp-content/uploads/2026/10/Erf-2795-George-Advert.docx"
+        },
+        {
+          "name": "Erf-2795-George-Complete-application.pdf",
+          "url": "https://www.george.gov.za/wp-content/uploads/2026/10/Erf-2795-George-Complete-application.pdf"
+        }
+      ],
+      "title": "GM Submission of Land use application for Erf 2795, George",
+      "onedrive": "pending (Q3/Q4 offline 12 Oct 2026; copies on box in delta-20261012/george-files)"
+    },
+    "9783": {
+      "folder": "9783-Pacaltsdorp",
+      "files": [
+        {
+          "name": "Erf-9783-Pacaltsdorp_LUA-Notice.docx",
+          "url": "https://www.george.gov.za/wp-content/uploads/2026/10/Erf-9783-Pacaltsdorp_LUA-Notice.docx"
+        },
+        {
+          "name": "Erf-9783-Pacaltsdorp_LU-Part-I.pdf",
+          "url": "https://www.george.gov.za/wp-content/uploads/2026/10/Erf-9783-Pacaltsdorp_LU-Part-I.pdf"
+        },
+        {
+          "name": "Erf-9783-Pacaltsdorp_LU-Part-II.pdf",
+          "url": "https://www.george.gov.za/wp-content/uploads/2026/10/Erf-9783-Pacaltsdorp_LU-Part-II.pdf"
+        },
+        {
+          "name": "Erf-9783-Pacaltsdorp_LU-Part-III.pdf",
+          "url": "https://www.george.gov.za/wp-content/uploads/2026/10/Erf-9783-Pacaltsdorp_LU-Part-III.pdf"
+        },
+        {
+          "name": "Erf-9783-Pacaltsdorp_LU-Part-IV.pdf",
+          "url": "https://www.george.gov.za/wp-content/uploads/2026/10/Erf-9783-Pacaltsdorp_LU-Part-IV.pdf"
+        }
+      ],
+      "title": "GM Submission of Land use application for Erf 9783, Pacaltsdorp (Parts 1-4)",
+      "onedrive": "pending (Q3/Q4 offline 12 Oct 2026; copies on box in delta-20261012/george-files)"
     }
   }
 }

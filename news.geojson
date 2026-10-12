@@ -1,7 +1,7 @@
 {
  "type": "FeatureCollection",
  "name": "news",
- "updated": "2026-10-05",
+ "updated": "2026-10-12",
  "features": [
   {
    "type": "Feature",
@@ -442,6 +442,81 @@
     "location_source": "Nominatim: Riversdale, Western Cape (town, approximate; park not in OSM)",
     "also_urls": [],
     "first_seen": "2026-10-05",
+    "located": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     22.578632,
+     -33.993238
+    ]
+   },
+   "properties": {
+    "id": "16219be65642",
+    "headline": "Wilderness boardwalk repairs await restart after procurement delay",
+    "date": "2026-10-09",
+    "outlet": "George Herald",
+    "url": "https://www.georgeherald.com/News/Article/Local-News/wilderness-boardwalk-repairs-await-restart-after-procurement-delay-202610090126",
+    "summary": "SANParks (Garden Route National Park) has finalised procurement and issued a purchase order for repairs to the Waterside Boardwalk along the Touw River in Wilderness, but work has not resumed because the appointed service provider is still mobilising funds; no restart or completion date given. Refurbishment began 11 Nov 2025 and stalled in March after a timber supplier failed to deliver. Watch: public tourism infrastructure, George (Wilderness).",
+    "place": "Waterside Boardwalk, Touw River, Wilderness (George)",
+    "erf": "",
+    "developer": "SANParks (Garden Route National Park)",
+    "classification": "Future development to watch",
+    "map_link": "",
+    "location_source": "Nominatim: Wilderness, Western Cape (village, approximate; boardwalk not in OSM)",
+    "also_urls": [],
+    "first_seen": "2026-10-12",
+    "located": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": null,
+   "properties": {
+    "id": "fd4f906ac565",
+    "headline": "George residents invited to waste management workshop",
+    "date": "2026-10-05",
+    "outlet": "George Herald",
+    "url": "https://www.georgeherald.com/News/Article/Environment/george-residents-invited-to-waste-management-workshop-202610050942",
+    "summary": "Public participation on the draft 4th Generation Western Cape Integrated Waste Management Plan 2027-2032, which also covers George's Gwaiing landfill site; workshop held Tue 6 Oct at Blanco Community Hall; draft plan open for comment for 30 days from 16 Sep 2026. Article notes residents' concerns about landfill leachate and the Gwaiing river. Watch: provincial waste policy/plan affecting George.",
+    "place": "Western Cape (provincial plan); Gwaiing landfill, George",
+    "erf": "",
+    "developer": "Western Cape Government (provincial plan)",
+    "classification": "Future development to watch",
+    "map_link": "",
+    "location_source": "",
+    "also_urls": [],
+    "first_seen": "2026-10-12",
+    "located": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     21.411111,
+     -34.368333
+    ]
+   },
+   "properties": {
+    "id": "ddb1f6e2921b",
+    "headline": "Bosbokkamp: 'n Nuwe hoofstuk vir Stilbaai",
+    "date": "2026-10-09",
+    "outlet": "Suid-Kaap Forum",
+    "url": "https://www.suidkaapforum.com/News/Article/Business/bosbokkamp-n-nuwe-hoofstuk-vir-stilbaai-202610081244",
+    "summary": "Advertorial: Ambik Commercial (Edms.) Bpk. and Amana Eiendomme are acquiring the Bosbokkamp property from the NG Kerk Stilbaai to develop it over the long term; final layout and scope still subject to municipal, statutory, environmental and infrastructure processes; enquiries Wynand L. Olivier (Amana Eiendomme). Watch: early-stage private land development, out of George area (Hessequa); no erf, size or professional team named.",
+    "place": "Bosbokkamp, Stilbaai (Hessequa)",
+    "erf": "",
+    "developer": "Ambik Commercial (Edms.) Bpk. / Amana Eiendomme",
+    "classification": "Future development to watch",
+    "map_link": "",
+    "location_source": "Nominatim: Stilbaai, Western Cape (town, approximate; property not in OSM)",
+    "also_urls": [],
+    "first_seen": "2026-10-12",
     "located": true
    }
   }
