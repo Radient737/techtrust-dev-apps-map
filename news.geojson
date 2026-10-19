@@ -1,7 +1,7 @@
 {
  "type": "FeatureCollection",
  "name": "news",
- "updated": "2026-10-12",
+ "updated": "2026-10-19",
  "features": [
   {
    "type": "Feature",
@@ -114,14 +114,16 @@
     "date": "2026-09-07",
     "outlet": "Knysna-Plett Herald",
     "url": "https://www.knysnaplettherald.com/News/Article/Local-News/eden-house-from-dream-to-reality-202609070840",
-    "summary": "NPC has raised the full R2.75m to buy a property for Eden House, a planned registered children's home in Knysna; the home still has to be set up.",
+    "summary": "NPC has raised the full R2.75m to buy a property for Eden House, a planned registered children's home in Knysna; the home still has to be set up. Update 16 Oct 2026 (Knysna-Plett Herald): September brought progress on the building plans, new partnerships and fundraising; an unexpected property-transfer problem has delayed the project (founder Hilde Hay).",
     "place": "Knysna (property not named)",
     "erf": "",
     "developer": "Eden House NPC",
     "classification": "Possible prospect",
     "map_link": "",
     "location_source": "",
-    "also_urls": [],
+    "also_urls": [
+     "https://www.knysnaplettherald.com/News/Article/Local-News/eden-house-project-moves-closer-to-becoming-a-reality-202610150804"
+    ],
     "first_seen": "2026-10-02",
     "located": false
    }
@@ -518,6 +520,134 @@
     "also_urls": [],
     "first_seen": "2026-10-12",
     "located": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     22.6211295,
+     -33.9472115
+    ]
+   },
+   "properties": {
+    "id": "1a03467d10bb",
+    "headline": "Seven Passes Road expected to open in March next year",
+    "date": "2026-10-14",
+    "outlet": "George Herald",
+    "url": "https://www.georgeherald.com/News/Article/Local-News/seven-passes-road-expected-to-open-in-march-next-year-202610141113",
+    "also_urls": [],
+    "summary": "Western Cape Department of Infrastructure R73.6m flood-repair project on about 10 km of the Seven Passes Road (George to Wilderness) plus district roads west of George and near Wittedrif: culvert replacements, three slips repaired with piling and concrete decks, seven reinforced-earth/gabion walls, larger drainage pipes, subsidence repairs and resurfacing. Road still closed; completion expected March 2027. Watch: provincial road infrastructure, George.",
+    "place": "Seven Passes Road, George to Wilderness",
+    "erf": "",
+    "developer": "Western Cape Department of Infrastructure",
+    "classification": "Future development to watch",
+    "map_link": "",
+    "location_source": "Nominatim: Seven Passes Road, George (road, approximate)",
+    "first_seen": "2026-10-19",
+    "located": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     22.4464893,
+     -33.8695652
+    ]
+   },
+   "properties": {
+    "id": "88c3939b1121",
+    "headline": "Montagu Pass to remain closed as repairs stretch into 2027",
+    "date": "2026-10-15",
+    "outlet": "George Herald",
+    "url": "https://www.georgeherald.com/News/Article/Local-News/montagu-pass-to-remain-closed-as-repairs-stretch-into-2027-202610151149",
+    "also_urls": [
+     "https://www.oudtshoorncourant.com/News/Article/Local-News/montagu-pass-to-remain-closed-as-repairs-stretch-into-2027-202610151149"
+    ],
+    "summary": "R55.3m rehabilitation of the 17.1 km gravel Montagu Pass (George to Herold), closed since 2023 flooding, by the Western Cape Department of Infrastructure: drainage cleared, road repairs between km 3.5 and 10, five new culverts planned and the Malgas River crossing to be replaced; heritage character (1848 pass, restored 1847 Toll House) to be preserved. Completion expected June 2027. Watch: provincial road/heritage infrastructure, George.",
+    "place": "Montagu Pass, George to Herold",
+    "erf": "",
+    "developer": "Western Cape Department of Infrastructure",
+    "classification": "Future development to watch",
+    "map_link": "",
+    "location_source": "Nominatim: Montagu Pass, Herold (road, approximate)",
+    "first_seen": "2026-10-19",
+    "located": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": null,
+   "properties": {
+    "id": "007ee0c09967",
+    "headline": "Regional waste site phase 1 nears completion",
+    "date": "2026-10-15",
+    "outlet": "George Herald",
+    "url": "https://www.georgeherald.com/News/Article/Local-News/regional-waste-site-phase-1-nears-completion-202610140328",
+    "also_urls": [],
+    "summary": "Garden Route District Municipality regional waste management facility: Cell 1A 99% complete, leachate and contaminated-water dams 82%, roads, buildings and stormwater nearly done. It cannot accept waste until DFFE (positive Record of Decision) and DWS approvals are in. Article is tagged PetroSA; no exact site given. Relevant because George Municipality closed its own landfill on 16 Oct after it reached capacity. Watch: regional public infrastructure.",
+    "place": "Garden Route District (regional waste facility; site not named in article)",
+    "erf": "",
+    "developer": "Garden Route District Municipality",
+    "classification": "Future development to watch",
+    "map_link": "",
+    "location_source": "",
+    "first_seen": "2026-10-19",
+    "located": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": null,
+   "properties": {
+    "id": "f4a90cedd10f",
+    "headline": "Need exists for an inpatient treatment facility, according to Sanca",
+    "date": "2026-10-16",
+    "outlet": "George Herald",
+    "url": "https://www.georgeherald.com/News/Article/Local-News/need-exists-for-an-inpatient-treatment-facility-according-to-sanca-202610161231",
+    "also_urls": [
+     "https://www.mosselbayadvertiser.com/News/Article/Local-News/survey-reveals-urgent-need-for-public-garden-route-rehab-centre-202610130846",
+     "https://www.knysnaplettherald.com/News/Article/General-News/need-exists-for-an-inpatient-treatment-facility-according-to-sanca-202610160117",
+     "https://www.mosselbayadvertiser.com/News/Article/General-News/need-exists-for-an-inpatient-treatment-facility-according-to-sanca-202610160117",
+     "https://www.oudtshoorncourant.com/News/Article/General-News/need-exists-for-an-inpatient-treatment-facility-according-to-sanca-202610160117",
+     "https://www.suidkaapforum.com/News/Article/General-News/need-exists-for-an-inpatient-treatment-facility-according-to-sanca-202610160117"
+    ],
+    "summary": "Sanca Garden Route (director Denise de Beer) presented survey research (442 respondents, Nov 2024) calling for a state-subsidised inpatient substance-abuse treatment facility in George first, later Mossel Bay and Oudtshoorn. No site, funding or project team yet; earlier Mossel Bay attempts (Willem van Heerden Building, 2022) met resistance. Watch rather than prospect because it is only a recommendation so far; it could become a facility brief if funded.",
+    "place": "George (no site named)",
+    "erf": "",
+    "developer": "Sanca Garden Route (recommendation; state-subsidised)",
+    "classification": "Future development to watch",
+    "map_link": "",
+    "location_source": "",
+    "first_seen": "2026-10-19",
+    "located": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": null,
+   "properties": {
+    "id": "5a2568049a1d",
+    "headline": "Long-awaited Go George bus service to connect Uniondale and Haarlem to George",
+    "date": "2026-10-16",
+    "outlet": "George Herald",
+    "url": "https://www.georgeherald.com/News/Article/Local-News/long-awaited-go-george-bus-service-to-connect-uniondale-and-haarlem-to-george-202610160102",
+    "also_urls": [
+     "https://www.oudtshoorncourant.com/News/Article/Local-News/long-awaited-go-george-bus-service-to-connect-uniondale-and-haarlem-to-george-202610160102",
+     "https://www.george.gov.za/go-george-launches-route-to-uniondale-and-surrounds/"
+    ],
+    "summary": "Western Cape Government and George Municipality launch a Go George route from Uniondale and Haarlem to central George on Fri 30 Oct 2026 (Mon, Wed, Fri and Sat; two 15-seater minibuses from 06:00; R110 single trip). Watch: public transport for the rural east of George, where two new subdivisions (Erf 364 Haarlem, Erf 1145 Uniondale) were also advertised this week.",
+    "place": "Uniondale and Haarlem to George",
+    "erf": "",
+    "developer": "Western Cape Government / George Municipality (Go George)",
+    "classification": "Future development to watch",
+    "map_link": "",
+    "location_source": "",
+    "first_seen": "2026-10-19",
+    "located": false
    }
   }
  ]

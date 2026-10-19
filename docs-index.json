@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-12T08:00:00+02:00",
+  "updated": "2026-10-19T08:00:00+02:00",
   "local_root": "C:\\Users\\pierr\\OneDrive\\LUSubmissions",
   "note": "Pack links are public George municipality PDF URLs. Local OneDrive folder is the working copy.",
   "by_key": {
@@ -363,7 +363,7 @@
         }
       ],
       "title": "GM Submission of Land use application for Erf 2795, George",
-      "onedrive": "pending (Q3/Q4 offline 12 Oct 2026; copies on box in delta-20261012/george-files)"
+      "onedrive": "copied 2026-10-12 (rclone; verified 2026-10-19)"
     },
     "9783": {
       "folder": "9783-Pacaltsdorp",
@@ -390,7 +390,114 @@
         }
       ],
       "title": "GM Submission of Land use application for Erf 9783, Pacaltsdorp (Parts 1-4)",
-      "onedrive": "pending (Q3/Q4 offline 12 Oct 2026; copies on box in delta-20261012/george-files)"
+      "onedrive": "copied 2026-10-12 (rclone; verified 2026-10-19)"
+    },
+    "Farm238-Hoogekraal-Buffelsdrift227": {
+      "folder": "Farm238-Hoogekraal-Buffelsdrift227",
+      "files": [
+        {
+          "name": "Advert-Hoogekraal-238-Geo-2.docx",
+          "url": "https://www.george.gov.za/wp-content/uploads/2026/10/Advert-Hoogekraal-238-Geo-2.docx"
+        },
+        {
+          "name": "Report-Pg-1-231-2.pdf",
+          "url": "https://www.george.gov.za/wp-content/uploads/2026/10/Report-Pg-1-231-2.pdf"
+        },
+        {
+          "name": "Report-Pg-232-392-1.pdf",
+          "url": "https://www.george.gov.za/wp-content/uploads/2026/10/Report-Pg-232-392-1.pdf"
+        },
+        {
+          "name": "Report-Pg-393-502.pdf",
+          "url": "https://www.george.gov.za/wp-content/uploads/2026/10/Report-Pg-393-502.pdf"
+        },
+        {
+          "name": "Report-Pg-503-631.pdf",
+          "url": "https://www.george.gov.za/wp-content/uploads/2026/10/Report-Pg-503-631.pdf"
+        },
+        {
+          "name": "Report-Pg-632-714.pdf",
+          "url": "https://www.george.gov.za/wp-content/uploads/2026/10/Report-Pg-632-714.pdf"
+        },
+        {
+          "name": "Report-Pg-715-789.pdf",
+          "url": "https://www.george.gov.za/wp-content/uploads/2026/10/Report-Pg-715-789.pdf"
+        },
+        {
+          "name": "Report-Pg-790-1054.pdf",
+          "url": "https://www.george.gov.za/wp-content/uploads/2026/10/Report-Pg-790-1054.pdf"
+        },
+        {
+          "name": "Report-Pg-1055-1223.pdf",
+          "url": "https://www.george.gov.za/wp-content/uploads/2026/10/Report-Pg-1055-1223.pdf"
+        },
+        {
+          "name": "Report-Pg-1224-1527.pdf",
+          "url": "https://www.george.gov.za/wp-content/uploads/2026/10/Report-Pg-1224-1527.pdf"
+        },
+        {
+          "name": "Report-Pg-1528-1538.pdf",
+          "url": "https://www.george.gov.za/wp-content/uploads/2026/10/Report-Pg-1528-1538.pdf"
+        }
+      ],
+      "title": "GM Submission of Land use applications for Farms Hoogekraal 238 (Parts 1-10)",
+      "onedrive": "copied 2026-10-19 (rclone)"
+    },
+    "1145": {
+      "folder": "1145-Uniondale",
+      "files": [
+        {
+          "name": "Erf-1145-Uniondale-Advert.docx",
+          "url": "https://www.george.gov.za/wp-content/uploads/2026/10/Erf-1145-Uniondale-Advert.docx"
+        },
+        {
+          "name": "Erf-1145-Uniondale-Complete-application.pdf",
+          "url": "https://www.george.gov.za/wp-content/uploads/2026/10/Erf-1145-Uniondale-Complete-application.pdf"
+        }
+      ],
+      "title": "GM Land use application for Erf 1145, Uniondale",
+      "onedrive": "copied 2026-10-19 (rclone)"
+    },
+    "364": {
+      "folder": "364-Haarlem",
+      "files": [
+        {
+          "name": "Erf-364-Haarlem-Advert.docx",
+          "url": "https://www.george.gov.za/wp-content/uploads/2026/10/Erf-364-Haarlem-Advert.docx"
+        },
+        {
+          "name": "Erf-364-Haarlem-Complete-application.pdf",
+          "url": "https://www.george.gov.za/wp-content/uploads/2026/10/Erf-364-Haarlem-Complete-application.pdf"
+        }
+      ],
+      "title": "GM Land use application for Erf 364, Haarlem",
+      "onedrive": "copied 2026-10-19 (rclone)"
+    },
+    "262": {
+      "folder": "262-LeGrand",
+      "files": [
+        {
+          "name": "Erf-262-George-Notice.docx",
+          "url": "https://www.george.gov.za/wp-content/uploads/2026/10/Erf-262-George-Notice.docx"
+        },
+        {
+          "name": "Land-use-application-for-Erf-262-Le-Grand.pdf",
+          "url": "https://www.george.gov.za/wp-content/uploads/2026/10/Land-use-application-for-Erf-262-Le-Grand.pdf"
+        }
+      ],
+      "title": "GM Land use application for Erf 262, Le Grand",
+      "onedrive": "copied 2026-10-19 (rclone)"
+    },
+    "23009": {
+      "folder": "23009-George",
+      "files": [
+        {
+          "name": "Erf-23009-George-Consnet-Use-Approval-LetterAsaph-Property-Development.pdf",
+          "url": "https://www.george.gov.za/wp-content/uploads/2026/10/Erf-23009-George-Consnet-Use-Approval-LetterAsaph-Property-Development.pdf"
+        }
+      ],
+      "title": "GM Land use Bylaw Decision for Erf 23009, George",
+      "onedrive": "copied 2026-10-19 (rclone)"
     }
   }
 }
