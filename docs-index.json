@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-19T08:00:00+02:00",
+  "updated": "2026-10-26T08:00:00+02:00",
   "local_root": "C:\\Users\\pierr\\OneDrive\\LUSubmissions",
   "note": "Pack links are public George municipality PDF URLs. Local OneDrive folder is the working copy.",
   "by_key": {
@@ -498,6 +498,66 @@
       ],
       "title": "GM Land use Bylaw Decision for Erf 23009, George",
       "onedrive": "copied 2026-10-19 (rclone)"
+    },
+    "2119": {
+      "folder": "2119-3670-Blanco",
+      "files": [
+        {
+          "name": "Erven-2119-3670-Blanco-Notification.docx",
+          "url": "https://www.george.gov.za/wp-content/uploads/2026/10/Erven-2119-3670-Blanco-Notification.docx"
+        },
+        {
+          "name": "Erven-2119-3670_Blanco_Motivational-Report-combined.pdf",
+          "url": "https://www.george.gov.za/wp-content/uploads/2026/10/Erven-2119-3670_Blanco_Motivational-Report-combined.pdf"
+        }
+      ],
+      "title": "GM Submission of Land use application 2119 & 3670, Blanco",
+      "onedrive": "copied 2026-10-26 (rclone)"
+    },
+    "Farm192-Ptn285-Kleinkrantz": {
+      "folder": "Farm192-Ptn285-Kleinkrantz",
+      "files": [
+        {
+          "name": "Kleinkrantz-192-Ptn-285-Notification.docx",
+          "url": "https://www.george.gov.za/wp-content/uploads/2026/10/Kleinkrantz-192-Ptn-285-Notification.docx"
+        },
+        {
+          "name": "Farm-192_285_Kleinkrantz_Motivational-Report-combined.pdf",
+          "url": "https://www.george.gov.za/wp-content/uploads/2026/10/Farm-192_285_Kleinkrantz_Motivational-Report-combined.pdf"
+        }
+      ],
+      "title": "GM Submission of Land use application for Farm 192 Ptn 285, George Rural",
+      "onedrive": "copied 2026-10-26 (rclone)"
+    },
+    "530": {
+      "folder": "530-Pacaltsdorp",
+      "files": [
+        {
+          "name": "Erf-530-Pacaltsdorp-Advert.docx",
+          "url": "https://www.george.gov.za/wp-content/uploads/2026/10/Erf-530-Pacaltsdorp-Advert.docx"
+        },
+        {
+          "name": "Erf-530-Pacaltsdorp-Complete-application.pdf",
+          "url": "https://www.george.gov.za/wp-content/uploads/2026/10/Erf-530-Pacaltsdorp-Complete-application.pdf"
+        }
+      ],
+      "title": "GM Submission of Land use application for Erf 530, Pacaltsdorp",
+      "onedrive": "copied 2026-10-26 (rclone)"
+    },
+    "335": {
+      "folder": "335-Hoekwil",
+      "files": [
+        {
+          "name": "Erf-335-Hoekwil-Advert.docx",
+          "url": "https://www.george.gov.za/wp-content/uploads/2026/10/Erf-335-Hoekwil-Advert.docx"
+        },
+        {
+          "name": "Erf-335-Hoekwil-Complete-application-compressed.pdf",
+          "url": "https://www.george.gov.za/wp-content/uploads/2026/10/Erf-335-Hoekwil-Complete-application-compressed.pdf"
+        }
+      ],
+      "title": "GM Submission of Land use applications for Erf 335, Hoekwil",
+      "onedrive": "copied 2026-10-26 (rclone)"
     }
   }
 }

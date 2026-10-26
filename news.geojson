@@ -1,7 +1,7 @@
 {
  "type": "FeatureCollection",
  "name": "news",
- "updated": "2026-10-19",
+ "updated": "2026-10-26",
  "features": [
   {
    "type": "Feature",
@@ -648,6 +648,170 @@
     "location_source": "",
     "first_seen": "2026-10-19",
     "located": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     22.65907,
+     -34.0057758
+    ]
+   },
+   "properties": {
+    "id": "dd85547d8ce5",
+    "headline": "GRDM still to respond to SANParks Erf 1297 offer",
+    "date": "2026-10-22",
+    "outlet": "George Herald",
+    "url": "https://www.georgeherald.com/News/Article/Local-News/grdm-still-to-respond-to-sanparks-erf-1297-offer-202610210300",
+    "also_urls": [],
+    "summary": "Garden Route District Municipality is finalising its response to a R5m SANParks purchase offer for Erf 1297, the 30 ha Kleinkrantz (Wilderness) property once earmarked for a Waterleaf Properties housing/resort scheme (DFFE refused environmental authorisation in Dec 2025). The 21 Oct council agenda says two more valuation reports are awaited; the erf is on GRDM's list of 19 properties for sale (listed value R30m). Residents report degradation and illegal occupation. GRDM's auction of its other properties is held up by appeals over the auctioneer appointment. Watch: contested public land sale; follows the 9 Sep \"Is Swartvlei for sale?\" item.",
+    "place": "Kleinkrantz, Wilderness (Erf 1297)",
+    "erf": "Erf 1297 Wilderness (Kleinkrantz)",
+    "developer": "Garden Route District Municipality (seller); SANParks (offer)",
+    "classification": "Future development to watch",
+    "map_link": "",
+    "location_source": "Nominatim: Kleinkrantz, Wilderness (suburb point, approximate; Erf 1297 Wilderness not found in George CITP layer 16)",
+    "first_seen": "2026-10-26",
+    "located": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     22.5488364,
+     -34.0045487
+    ]
+   },
+   "properties": {
+    "id": "7d7b1842b3ec",
+    "headline": "Victoria Bay restaurant up for tender following lengthy legal battle",
+    "date": "2026-10-21",
+    "outlet": "George Herald",
+    "url": "https://www.georgeherald.com/News/Article/Local-News/victoria-bay-restaurant-up-for-tender-following-lengthy-legal-battle-202610210106",
+    "also_urls": [],
+    "summary": "GRDM tender GRDM/15/26-27 (published 13 Oct) for a 9-year-11-month lease, upgrading/refurbishment and operation of the Victoria Bay restaurant on a portion of Farm 195 Kraaibosch, after the former tenant (Byxiscan (Pty) Ltd t/a Vikki's at the Beach) was evicted and vacated on 31 July. Compulsory briefing at the restaurant 10:00 Tue 27 Oct; tender closes 11:00 Wed 18 Nov. Watch rather than prospect because no operator is named yet; the winning bidder will have a refurbishment to carry out.",
+    "place": "Victoria Bay, George (portion of Farm 195 Kraaibosch)",
+    "erf": "Portion of Farm 195 Kraaibosch (portion not stated)",
+    "developer": "Garden Route District Municipality (lessor; operator to be appointed by tender)",
+    "classification": "Future development to watch",
+    "map_link": "",
+    "location_source": "Nominatim: Victoria Bay Beach, George (approximate)",
+    "first_seen": "2026-10-26",
+    "located": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     22.3666773,
+     -33.87598
+    ]
+   },
+   "properties": {
+    "id": "51673a2e1100",
+    "headline": "N9/N12 road upgrade between George and Oudtshoorn on track for June 2028 completion",
+    "date": "2026-10-19",
+    "outlet": "George Herald",
+    "url": "https://www.georgeherald.com/News/Article/Local-News/n9-n12-road-upgrade-between-george-and-oudtshoorn-on-track-for-june-2028-completion-202610190832",
+    "also_urls": [
+     "https://www.oudtshoorncourant.com/News/Article/Local-News/n9-n12-road-upgrade-between-george-and-oudtshoorn-on-track-for-june-2028-completion-202610190832"
+    ],
+    "summary": "Western Cape Department of Infrastructure R227.2m upgrade of about 5 km of the N9/N12 between George and Oudtshoorn plus 2 km of Waboomskraal Road repairs (started Oct 2025): lanes widened 3.3 to 3.7 m, surfaced 2 m shoulders, realignment, an ~800 m retaining wall, drainage, guardrails and signs. Completion expected June 2028. Watch: provincial road infrastructure north of George.",
+    "place": "N9/N12 near Waboomskraal, George",
+    "erf": "",
+    "developer": "Western Cape Department of Infrastructure",
+    "classification": "Future development to watch",
+    "map_link": "",
+    "location_source": "Nominatim: Waboomskraal Public Library, N9/N12, George (approximate; plain \"Waboomskraal\" geocodes to Witzenberg, rejected)",
+    "first_seen": "2026-10-26",
+    "located": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     22.3753585,
+     -34.0050674
+    ]
+   },
+   "properties": {
+    "id": "91ef7771611a",
+    "headline": "Group Editors demands urgent action at airport crossing",
+    "date": "2026-10-22",
+    "outlet": "George Herald",
+    "url": "https://www.georgeherald.com/News/Article/Local-News/group-editors-demands-urgent-action-at-airport-crossing-202610210353",
+    "also_urls": [],
+    "summary": "Group Editors (CEO Servaas de Kock, letter 13 Oct) asked the George and Garden Route District mayors to escalate the R102/R404 George Airport intersection to the Western Cape Government for a permanently funded fix, independent of the proposed George western bypass. Mayor Johnson is preparing a submission to the province; a four-way stop is being discussed. Watch: provincial road safety infrastructure.",
+    "place": "R102/R404 intersection at George Airport",
+    "erf": "",
+    "developer": "Western Cape Government (requested); George Municipality / GRDM",
+    "classification": "Future development to watch",
+    "map_link": "",
+    "location_source": "Nominatim: George Airport, R404 (approximate; intersection not geocoded separately)",
+    "first_seen": "2026-10-26",
+    "located": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     22.4706258,
+     -33.9612303
+    ]
+   },
+   "properties": {
+    "id": "0f86b8f24764",
+    "headline": "GAC and JMC arrive in George",
+    "date": "2026-10-22",
+    "outlet": "George Herald",
+    "url": "https://www.georgeherald.com/News/Article/Business/gac-and-jmc-arrive-in-george-202610210211",
+    "also_urls": [],
+    "summary": "Advertorial: Kelston Motor Group has opened a GAC and JMC dealership at 3 Glaze Street, George, with a dedicated aftersales operation (workshop, parts and accessories) \"planned\". Watch rather than prospect: the showroom is already open and it is unclear whether the workshop needs new building or fit-out work.",
+    "place": "3 Glaze Street, George",
+    "erf": "",
+    "developer": "Kelston Motor Group",
+    "classification": "Future development to watch",
+    "map_link": "",
+    "location_source": "Nominatim: Glaze Street, George (street, approximate)",
+    "first_seen": "2026-10-26",
+    "located": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     23.0434109,
+     -34.0376949
+    ]
+   },
+   "properties": {
+    "id": "9ebf2dc094b2",
+    "headline": "30 apartments in the middle of Knysna",
+    "date": "2026-10-22",
+    "outlet": "Knysna-Plett Herald",
+    "url": "https://www.knysnaplettherald.com/News/Article/Business/30-apartments-in-the-middle-of-knysna-202610220850",
+    "also_urls": [],
+    "summary": "Advertorial: Oysters & Pearls on Trotter Street, Knysna (ground broken Aug 2026) - 30 apartments on three residential storeys over street-level parking and business units; designed by Olivier Architects for Oysters and Pearls Property Developers; 79-161 m2 units priced R2.99m-R4.79m. Watch: out-of-area scheme that already has its architect; shows housing demand in Knysna town centre.",
+    "place": "Trotter Street, Knysna",
+    "erf": "",
+    "developer": "Oysters and Pearls Property Developers (architect: Olivier Architects)",
+    "classification": "Future development to watch",
+    "map_link": "",
+    "location_source": "Nominatim: Trotter Street, Knysna (street, approximate)",
+    "first_seen": "2026-10-26",
+    "located": true
    }
   }
  ]
