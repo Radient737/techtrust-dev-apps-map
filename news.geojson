@@ -1,7 +1,7 @@
 {
  "type": "FeatureCollection",
  "name": "news",
- "updated": "2026-10-26",
+ "updated": "2026-11-02",
  "features": [
   {
    "type": "Feature",
@@ -811,6 +811,60 @@
     "map_link": "",
     "location_source": "Nominatim: Trotter Street, Knysna (street, approximate)",
     "first_seen": "2026-10-26",
+    "located": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     22.3753585,
+     -34.0050674
+    ]
+   },
+   "properties": {
+    "id": "ebce01359927",
+    "headline": "No immediate fix promised for George’s infamous airport crossing",
+    "date": "2026-10-29",
+    "outlet": "George Herald",
+    "url": "https://www.georgeherald.com/News/Article/Local-News/no-immediate-fix-promised-for-george-s-infamous-airport-crossing-202610280153",
+    "also_urls": [],
+    "summary": "Follow-up to \"Group Editors demands urgent action at airport crossing\" (22 Oct). The Western Cape Department of Infrastructure has not committed to improvements at the R102/R404 George Airport intersection and considers the matter concluded; no commitment to the four-way stop idea. It points to the George western bypass instead: final design stage, environmental authorisation expected in the first half of 2027, phase 1 construction scheduled to start December 2027 with a 30-month construction period. Watch: provincial road infrastructure (western bypass timeline).",
+    "place": "R102/R404 intersection at George Airport; George western bypass",
+    "erf": "",
+    "developer": "Western Cape Department of Infrastructure",
+    "classification": "Future development to watch",
+    "map_link": "",
+    "location_source": "Nominatim: George Airport, R404 (approximate; bypass route not mapped)",
+    "first_seen": "2026-11-02",
+    "located": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     23.3386111,
+     -33.7338889
+    ]
+   },
+   "properties": {
+    "id": "3c208c6ab1db",
+    "headline": "Fire destroys ablution block at Haarlem school, examinations unaffected",
+    "date": "2026-10-26",
+    "outlet": "George Herald",
+    "url": "https://www.georgeherald.com/News/Article/Local-News/fire-destroys-ablution-block-at-haarlem-school-examinations-unaffected-202610260125",
+    "also_urls": [],
+    "summary": "A fire on Sat 24 Oct destroyed a separate ablution block at Haarlem Secondary School; main buildings undamaged. WCED is assessing the damage; the extent of remedial work and the repair timeframe will be set after assessments. Watch: public school repair/rebuild by WCED (Haarlem, George municipality); no scope or procurement yet.",
+    "place": "Haarlem Secondary School, Haarlem (Langkloof)",
+    "erf": "",
+    "developer": "Western Cape Education Department",
+    "classification": "Future development to watch",
+    "map_link": "",
+    "location_source": "Nominatim: Haarlem village point (approximate; school not geocoded)",
+    "first_seen": "2026-11-02",
     "located": true
    }
   }

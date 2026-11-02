@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-26T08:00:00+02:00",
+  "updated": "2026-11-02T10:00:00+02:00",
   "local_root": "C:\\Users\\pierr\\OneDrive\\LUSubmissions",
   "note": "Pack links are public George municipality PDF URLs. Local OneDrive folder is the working copy.",
   "by_key": {
@@ -558,6 +558,119 @@
       ],
       "title": "GM Submission of Land use applications for Erf 335, Hoekwil",
       "onedrive": "copied 2026-10-26 (rclone)"
+    },
+    "675": {
+      "folder": "675-George",
+      "files": [
+        {
+          "name": "Erf-675-George-Notification-1.docx",
+          "url": "https://www.george.gov.za/wp-content/uploads/2026/10/Erf-675-George-Notification-1.docx"
+        },
+        {
+          "name": "Erf-675_George_Motivational-Report-combined.pdf",
+          "url": "https://www.george.gov.za/wp-content/uploads/2026/10/Erf-675_George_Motivational-Report-combined.pdf"
+        }
+      ],
+      "title": "GM Submission of Land use application for Erf 675, George",
+      "onedrive": "copied 2026-11-02 (rclone)"
+    },
+    "19940": {
+      "folder": "19940-George",
+      "files": [
+        {
+          "name": "George_Erf_19940_PPP_Notice.docx",
+          "url": "https://www.george.gov.za/wp-content/uploads/2026/10/George_Erf_19940_PPP_Notice.docx"
+        },
+        {
+          "name": "George_Erf_19940_Merged_Application.pdf",
+          "url": "https://www.george.gov.za/wp-content/uploads/2026/10/George_Erf_19940_Merged_Application.pdf"
+        }
+      ],
+      "title": "GM Submission of Land use application for Erf 19940, George",
+      "onedrive": "copied 2026-11-02 (rclone)"
+    },
+    "Farm202-Ptn113-HansMoesKraal": {
+      "folder": "Farm202-Ptn113-HansMoesKraal",
+      "files": [
+        {
+          "name": "Notice-of-Land-use-application-for-Farm-202-Ptn-113.docx",
+          "url": "https://www.george.gov.za/wp-content/uploads/2026/10/Notice-of-Land-use-application-for-Farm-202-Ptn-113.docx"
+        },
+        {
+          "name": "HMK-202-113-Land-Use-Application_compressed.pdf",
+          "url": "https://www.george.gov.za/wp-content/uploads/2026/10/HMK-202-113-Land-Use-Application_compressed.pdf"
+        }
+      ],
+      "title": "GM Submission of Land use application for Farm 202 Ptn 113, George Rural",
+      "onedrive": "copied 2026-11-02 (rclone)"
+    },
+    "325-Syferfontein": {
+      "folder": "325-Syferfontein-Pacaltsdorp",
+      "files": [
+        {
+          "name": "Advert-Pacaltsdorp-Erf-325-2-1.docx",
+          "url": "https://www.george.gov.za/wp-content/uploads/2026/10/Advert-Pacaltsdorp-Erf-325-2-1.docx"
+        },
+        {
+          "name": "Pr2609-Pacaltsdorp-Erf-325-Syferfontein_Pg-1-106.pdf",
+          "url": "https://www.george.gov.za/wp-content/uploads/2026/10/Pr2609-Pacaltsdorp-Erf-325-Syferfontein_Pg-1-106.pdf"
+        },
+        {
+          "name": "Pr2609-Pacaltsdorp-Erf-325-Syferfontein_Pg-107-111-1.pdf",
+          "url": "https://www.george.gov.za/wp-content/uploads/2026/10/Pr2609-Pacaltsdorp-Erf-325-Syferfontein_Pg-107-111-1.pdf"
+        }
+      ],
+      "title": "GM Submission of Land use application for Erf 325, Pacaltsdorp (Parts 1 & 2)",
+      "onedrive": "copied 2026-11-02 (rclone)"
+    },
+    "708": {
+      "folder": "708-Hoekwil",
+      "files": [
+        {
+          "name": "Erf-708-Hoekwil-WH_LUA-Notice.docx",
+          "url": "https://www.george.gov.za/wp-content/uploads/2026/10/Erf-708-Hoekwil-WH_LUA-Notice.docx"
+        },
+        {
+          "name": "Erf-708-Hoewkil-WH_Land-use-application.pdf",
+          "url": "https://www.george.gov.za/wp-content/uploads/2026/10/Erf-708-Hoewkil-WH_Land-use-application.pdf"
+        }
+      ],
+      "title": "GM Submission of Land use application for Erf 708, Hoekwil",
+      "onedrive": "copied 2026-11-02 (rclone)"
+    },
+    "2603": {
+      "folder": "2603-George",
+      "files": [
+        {
+          "name": "LUA-Notice-14.docx",
+          "url": "https://www.george.gov.za/wp-content/uploads/2026/10/LUA-Notice-14.docx"
+        },
+        {
+          "name": "Erf-2603-George_Land-use-application-1.pdf",
+          "url": "https://www.george.gov.za/wp-content/uploads/2026/10/Erf-2603-George_Land-use-application-1.pdf"
+        }
+      ],
+      "title": "GM Submission of Land use application for Erf 2603, George",
+      "onedrive": "copied 2026-11-02 (rclone)"
+    },
+    "73": {
+      "folder": "73-Hoekwil",
+      "files": [
+        {
+          "name": "LUA-Notice-updated.docx",
+          "url": "https://www.george.gov.za/wp-content/uploads/2026/10/LUA-Notice-updated.docx"
+        },
+        {
+          "name": "Erf-73-Hoekwil_LUA-I-updated.pdf",
+          "url": "https://www.george.gov.za/wp-content/uploads/2026/10/Erf-73-Hoekwil_LUA-I-updated.pdf"
+        },
+        {
+          "name": "Erf-73-Hoekwil_LUA-II.pdf",
+          "url": "https://www.george.gov.za/wp-content/uploads/2026/10/Erf-73-Hoekwil_LUA-II.pdf"
+        }
+      ],
+      "title": "GM Submission of Land use application for Erf 73, Hoekwil (Parts 1 & 2)",
+      "onedrive": "copied 2026-11-02 (rclone)"
     }
   }
 }
