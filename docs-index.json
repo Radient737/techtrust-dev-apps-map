@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-02T10:00:00+02:00",
+  "updated": "2026-11-06T10:00:00+02:00",
   "local_root": "C:\\Users\\pierr\\OneDrive\\LUSubmissions",
   "note": "Pack links are public George municipality PDF URLs. Local OneDrive folder is the working copy.",
   "by_key": {
@@ -671,6 +671,113 @@
       ],
       "title": "GM Submission of Land use application for Erf 73, Hoekwil (Parts 1 & 2)",
       "onedrive": "copied 2026-11-02 (rclone)"
+    },
+    "16": {
+      "folder": "16-George",
+      "files": [
+        {
+          "name": "Erf-16-George-Website-notice-2026.docx",
+          "url": "https://www.george.gov.za/wp-content/uploads/2026/11/Erf-16-George-Website-notice-2026.docx"
+        },
+        {
+          "name": "Erf-16-George-Complete-Application-compressed.pdf",
+          "url": "https://www.george.gov.za/wp-content/uploads/2026/11/Erf-16-George-Complete-Application-compressed.pdf"
+        }
+      ],
+      "title": "GM Submission of Land use application for Erf 16, George",
+      "onedrive": "copied 2026-11-06 (rclone)"
+    },
+    "4518": {
+      "folder": "4518-George",
+      "files": [
+        {
+          "name": "Uneven-erf-EMAIL-Notice.pdf",
+          "url": "https://www.george.gov.za/wp-content/uploads/2026/11/Uneven-erf-EMAIL-Notice.pdf"
+        },
+        {
+          "name": "Erf-4518_George_Motivational-Report-combined.pdf.pdf",
+          "url": "https://www.george.gov.za/wp-content/uploads/2026/11/Erf-4518_George_Motivational-Report-combined.pdf.pdf"
+        }
+      ],
+      "title": "GM Submission of Land use application for Erf 4518, George",
+      "onedrive": "copied 2026-11-06 (rclone)"
+    },
+    "1032": {
+      "folder": "1032-Hoekwil",
+      "files": [
+        {
+          "name": "Erf-1032-Hoekwil_LUA-Notice-1.docx",
+          "url": "https://www.george.gov.za/wp-content/uploads/2026/11/Erf-1032-Hoekwil_LUA-Notice-1.docx"
+        },
+        {
+          "name": "Erf-1032-Hoekwil_LUA-1.pdf",
+          "url": "https://www.george.gov.za/wp-content/uploads/2026/11/Erf-1032-Hoekwil_LUA-1.pdf"
+        }
+      ],
+      "title": "GM Submission of Land use application for Erf 1032, Hoekwil",
+      "onedrive": "copied 2026-11-06 (rclone)"
+    },
+    "735-740": {
+      "folder": "735-740-Hoekwil",
+      "files": [
+        {
+          "name": "Erven-735-740-Hoekwil-Website-notice-2026-1.docx",
+          "url": "https://www.george.gov.za/wp-content/uploads/2026/11/Erven-735-740-Hoekwil-Website-notice-2026-1.docx"
+        }
+      ],
+      "title": "GM Notice of Land use application for Erf 735 & 740, Hoekwil (listing titled approvals)",
+      "onedrive": "copied 2026-11-06 (rclone)"
+    },
+    "Farm195-Ptn7-23-48-Kraaibosch": {
+      "folder": "Farm195-Ptn7-23-48-Kraaibosch",
+      "files": [
+        {
+          "name": "GRCity_LUA-Notice.docx",
+          "url": "https://www.george.gov.za/wp-content/uploads/2026/11/GRCity_LUA-Notice.docx"
+        },
+        {
+          "name": "Kraaibosch-195-LUA-Part-1.pdf",
+          "url": "https://www.george.gov.za/wp-content/uploads/2026/11/Kraaibosch-195-Portion-7-23-48-_LUA-Part-1-UPDATED-1.pdf"
+        },
+        {
+          "name": "Kraaibosch-195-LUA-Part-2.pdf",
+          "url": "https://www.george.gov.za/wp-content/uploads/2026/11/Kraaibosch-195-Portion-7-23-48-_LUA-Part-2-UPDATED.pdf"
+        },
+        {
+          "name": "Kraaibosch-195-LUA-Part-3.pdf",
+          "url": "https://www.george.gov.za/wp-content/uploads/2026/11/Kraaibosch-195-Portion-7-23-48-_LUA-Part-3-updated.pdf"
+        },
+        {
+          "name": "Kraaibosch-195-LUA-Part-4.pdf",
+          "url": "https://www.george.gov.za/wp-content/uploads/2026/11/Kraaibosch-195-Portion-7-23-48-_LUA-Part-4.pdf"
+        },
+        {
+          "name": "Kraaibosch-195-LUA-Part-5.pdf",
+          "url": "https://www.george.gov.za/wp-content/uploads/2026/11/Kraaibosch-195-Portion-7-23-48-_LUA-Part-5-1.pdf"
+        },
+        {
+          "name": "Kraaibosch-195-LUA-Part-6.pdf",
+          "url": "https://www.george.gov.za/wp-content/uploads/2026/11/Kraaibosch-195-Portion-7-23-48-_LUA-Part-6.pdf"
+        },
+        {
+          "name": "Kraaibosch-195-LUA-Part-7.pdf",
+          "url": "https://www.george.gov.za/wp-content/uploads/2026/11/Kraaibosch-195-Portion-7-23-48-_LUA-Part-7.pdf"
+        },
+        {
+          "name": "Kraaibosch-195-LUA-Part-8.pdf",
+          "url": "https://www.george.gov.za/wp-content/uploads/2026/11/Kraaibosch-195-Portion-7-23-48-_LUA-Part-8.pdf"
+        },
+        {
+          "name": "Kraaibosch-195-LUA-Part-9.pdf",
+          "url": "https://www.george.gov.za/wp-content/uploads/2026/11/Kraaibosch-195-Portion-7-23-48-_LUA-Part-9.pdf"
+        },
+        {
+          "name": "Kraaibosch-195-LUA-Part-10.pdf",
+          "url": "https://www.george.gov.za/wp-content/uploads/2026/11/Kraaibosch-195-Portion-7-23-48-_LUA-Part-10.pdf"
+        }
+      ],
+      "title": "GM Submission of Land use application for Farm Kraaibosch 195 Portion 7, 23, & 48 (Parts 1–10)",
+      "onedrive": "copied 2026-11-06 (rclone)"
     }
   }
 }

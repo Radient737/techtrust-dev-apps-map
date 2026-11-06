@@ -1,7 +1,7 @@
 {
  "type": "FeatureCollection",
  "name": "news",
- "updated": "2026-11-02",
+ "updated": "2026-11-06",
  "features": [
   {
    "type": "Feature",
@@ -865,6 +865,62 @@
     "map_link": "",
     "location_source": "Nominatim: Haarlem village point (approximate; school not geocoded)",
     "first_seen": "2026-11-02",
+    "located": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     22.4478204,
+     -33.9700542
+    ]
+   },
+   "properties": {
+    "id": "c5e219a6aa6b",
+    "headline": "R1.7bn road infrastructure plans for George, including Hansmoeskraal Road upgrade",
+    "date": "2026-11-04",
+    "outlet": "George Herald",
+    "url": "https://www.georgeherald.com/News/Article/Local-News/r1-7bn-road-infrastructure-plans-for-george-including-hansmoeskraal-road-upgrade-202611040819",
+    "also_urls": [],
+    "summary": "George Municipality plans major road projects with combined investment over R1.7bn: York Street widening (~R130m, including bridge widenings at Groeneweide and near Pacaltsdorp Cemetery); Hansmoeskraal Road upgrade (~R285m, gravel to tar; R11m in 2026/27 budget); Rand Street extension with a new N2 bridge for additional access to Pacaltsdorp and Thembalethu (~R1.3bn). Road studies completed; next stages are planning, funding and implementation. Watch: municipal road infrastructure / CEF-style capital programme.",
+    "place": "York Street; Hansmoeskraal Road; Rand Street / N2 access (Pacaltsdorp–Thembalethu)",
+    "erf": "",
+    "developer": "George Municipality",
+    "classification": "Future development to watch",
+    "map_link": "",
+    "location_source": "Nominatim: York Street, George (approximate; multi-project corridor)",
+    "first_seen": "2026-11-06",
+    "located": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     22.485,
+     -34.0047222
+    ]
+   },
+   "properties": {
+    "id": "1d1e7fdd4621",
+    "headline": "Award-winning Thembalethu 66kV substation officially opened",
+    "date": "2026-11-03",
+    "outlet": "George Herald",
+    "url": "https://www.georgeherald.com/News/Article/Local-News/award-winning-thembalethu-66kv-substation-officially-opened-202611031038",
+    "also_urls": [
+     "https://www.george.gov.za/george-municipality-officially-opens-award-winning-thembalethu-66kv-substation/"
+    ],
+    "summary": "George Municipality opened its new Thembalethu 66kV / 40MVA substation (R90m; R48m DoE grant) on 23 Oct 2026. AMEU Top Performing Municipal Project Award. Completes a 66kV ring-feed to Thembalethu with 20MVA firm capacity (2×20MVA transformers). Reduces load on Pacaltsdorp and George Industria substations. Construction over ~5 years (Zutari technical specialist named). Watch: completed municipal electrotechnical infrastructure (capacity now available for growth).",
+    "place": "Thembalethu, George",
+    "erf": "",
+    "developer": "George Municipality (Electrotechnical Engineering Services)",
+    "classification": "Future development to watch",
+    "map_link": "",
+    "location_source": "Nominatim: Thembalethu, George (approximate village point)",
+    "first_seen": "2026-11-06",
     "located": true
    }
   }
