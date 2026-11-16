@@ -1,7 +1,7 @@
 {
  "type": "FeatureCollection",
  "name": "news",
- "updated": "2026-11-06",
+ "updated": "2026-11-16",
  "features": [
   {
    "type": "Feature",
@@ -922,6 +922,57 @@
     "location_source": "Nominatim: Thembalethu, George (approximate village point)",
     "first_seen": "2026-11-06",
     "located": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     22.4906261,
+     -33.962033
+    ]
+   },
+   "properties": {
+    "id": "23ea55aca0c7",
+    "headline": "New Stander Street high school (Erf 6979, 1,120 learners, STEM focus) planned to open January 2029; contractor information meeting 16 Nov",
+    "date": "2026-11-11",
+    "outlet": "George Herald",
+    "url": "https://www.georgeherald.com/Schools/Article/Academic/public-information-meeting-re-new-high-school-that-s-to-open-in-2029-202611110333",
+    "also_urls": [],
+    "summary": "WCED confirms the new high school on Erf 6979, Stander Street, George (up to 1,120 learners; 30 standard + 4 specialist classrooms; rugby and netball fields; space for future expansion) is aiming to open January 2029. Awaiting a construction work permit from the Department of Labour. Contractor H and I Construction notified an information meeting at Pine Lodge on Mon 16 Nov 2026, 18:30–20:30; residents are concerned about traffic and the main gate in Stander Street opposite Genevafontein Retirement Village. Watch: public (WCED) school project with a contractor appointed, not a private prospect.",
+    "place": "Stander Street, George (Erf 6979)",
+    "erf": "6979",
+    "developer": "Western Cape Education Department; contractor H and I Construction",
+    "classification": "Future development to watch",
+    "map_link": "",
+    "location_source": "George CITP parcels (FeatureServer 16): Erf 6979 George (Community Zone I) centroid",
+    "first_seen": "2026-11-16",
+    "located": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": null,
+   "properties": {
+    "id": "edb66819261e",
+    "headline": "George 2026 General Valuation Roll open for inspection (5 Nov 2026 – 8 Jan 2027); ratepayers report increases of up to 90%",
+    "date": "2026-11-11",
+    "outlet": "George Herald",
+    "url": "https://www.georgeherald.com/News/Article/Local-News/george-property-owners-urged-to-check-new-valuations-202611110117",
+    "also_urls": [
+     "https://www.georgeherald.com/News/Article/Local-News/property-values-soar-but-what-will-homeowners-pay-202611110346",
+     "https://www.georgeherald.com/News/Article/Local-News/grra-calls-for-fair-property-valuations-and-tighter-municipal-spending-controls-202611120433"
+    ],
+    "summary": "George Municipality’s 2026 General Valuation Roll (about 57,000 properties; market value as at 1 July 2026; valuers DDP Valuers (Pty) Ltd) is open for public inspection 5 Nov 2026 – 8 Jan 2027, with objections by email. Applies July 2027 – June 2030. George Herald (12 Nov) reports increases of up to 90% on some valuations; GRRA (chair Jacques Wessels) questions how valuations are calculated and municipal spending. Watch: municipal-wide policy item, not a development; relevant to the property-value estimate work. Objection details not verified beyond the article.",
+    "place": "George (municipal-wide)",
+    "erf": "",
+    "developer": "George Municipality (valuers DDP Valuers)",
+    "classification": "Future development to watch",
+    "map_link": "",
+    "location_source": "none (municipal-wide)",
+    "first_seen": "2026-11-16",
+    "located": false
    }
   }
  ]

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06T10:00:00+02:00",
+  "updated": "2026-11-16T09:00:00+02:00",
   "local_root": "C:\\Users\\pierr\\OneDrive\\LUSubmissions",
   "note": "Pack links are public George municipality PDF URLs. Local OneDrive folder is the working copy.",
   "by_key": {
@@ -778,6 +778,66 @@
       ],
       "title": "GM Submission of Land use application for Farm Kraaibosch 195 Portion 7, 23, & 48 (Parts 1–10)",
       "onedrive": "copied 2026-11-06 (rclone)"
+    },
+    "602": {
+      "folder": "602-George",
+      "files": [
+        {
+          "name": "Erf-602-George-EMAIL-Notice.docx",
+          "url": "https://www.george.gov.za/wp-content/uploads/2026/11/Erf-602-George-EMAIL-Notice.docx"
+        },
+        {
+          "name": "Erf-602_George_Motivational-Report-combined.pdf",
+          "url": "https://www.george.gov.za/wp-content/uploads/2026/11/Erf-602_George_Motivational-Report-combined.pdf"
+        }
+      ],
+      "title": "GM Submission of Land use application for Erf 602, George",
+      "onedrive": "not copied by radar 2026-11-16; handed to Janus"
+    },
+    "11000": {
+      "folder": "11000-George",
+      "files": [
+        {
+          "name": "Even-Erf-11000-George-EMAIL-Notice.docx",
+          "url": "https://www.george.gov.za/wp-content/uploads/2026/11/Even-Erf-11000-George-EMAIL-Notice.docx"
+        },
+        {
+          "name": "Erf-11000-George-Motivational-Report-merged.pdf",
+          "url": "https://www.george.gov.za/wp-content/uploads/2026/11/Erf-11000-George-Motivational-Report-merged.pdf"
+        }
+      ],
+      "title": "GM Submission of Land use application for Erf 11000, George",
+      "onedrive": "not copied by radar 2026-11-16; handed to Janus"
+    },
+    "52": {
+      "folder": "52-Hoekwil",
+      "files": [
+        {
+          "name": "Erf-52-Notice.docx",
+          "url": "https://www.george.gov.za/wp-content/uploads/2026/11/Erf-52-Notice.docx"
+        },
+        {
+          "name": "Erf-52-Hoekwil_Motivational_Report-combined.pdf",
+          "url": "https://www.george.gov.za/wp-content/uploads/2026/11/Erf-52-Hoekwil_Motivational_Report-combined.pdf"
+        }
+      ],
+      "title": "GM Submission of Land use application for Erf 52, Hoekwil",
+      "onedrive": "main pack already filed by Janus 2026-11-11"
+    },
+    "556-1126": {
+      "folder": "556-1126-Wilderness",
+      "files": [
+        {
+          "name": "Erven-556-1126-Wilderness_LUA-Notice.docx",
+          "url": "https://www.george.gov.za/wp-content/uploads/2026/11/Erven-556-1126-Wilderness_LUA-Notice.docx"
+        },
+        {
+          "name": "Erven-556-1126-Wilderness_Land-use-application.pdf",
+          "url": "https://www.george.gov.za/wp-content/uploads/2026/11/Erven-556-1126-Wilderness_Land-use-application.pdf"
+        }
+      ],
+      "title": "GM Submission of Land use application for Erven 556 & 1126, Wilderness",
+      "onedrive": "main pack already filed by Janus 2026-11-11"
     }
   }
 }
