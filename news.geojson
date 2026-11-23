@@ -1,7 +1,7 @@
 {
  "type": "FeatureCollection",
  "name": "news",
- "updated": "2026-11-16",
+ "updated": "2026-11-23",
  "features": [
   {
    "type": "Feature",
@@ -939,8 +939,10 @@
     "date": "2026-11-11",
     "outlet": "George Herald",
     "url": "https://www.georgeherald.com/Schools/Article/Academic/public-information-meeting-re-new-high-school-that-s-to-open-in-2029-202611110333",
-    "also_urls": [],
-    "summary": "WCED confirms the new high school on Erf 6979, Stander Street, George (up to 1,120 learners; 30 standard + 4 specialist classrooms; rugby and netball fields; space for future expansion) is aiming to open January 2029. Awaiting a construction work permit from the Department of Labour. Contractor H and I Construction notified an information meeting at Pine Lodge on Mon 16 Nov 2026, 18:30–20:30; residents are concerned about traffic and the main gate in Stander Street opposite Genevafontein Retirement Village. Watch: public (WCED) school project with a contractor appointed, not a private prospect.",
+    "also_urls": [
+     "https://www.georgeherald.com/News/Article/Local-News/residents-threaten-legal-action-over-new-high-school-202611180251"
+    ],
+    "summary": "WCED confirms the new high school on Erf 6979, Stander Street, George (up to 1,120 learners; 30 standard + 4 specialist classrooms; rugby and netball fields; space for future expansion) is aiming to open January 2029. Awaiting a construction work permit from the Department of Labour. Contractor H and I Construction notified an information meeting at Pine Lodge on Mon 16 Nov 2026, 18:30–20:30; residents are concerned about traffic and the main gate in Stander Street opposite Genevafontein Retirement Village. Watch: public (WCED) school project with a contractor appointed, not a private prospect. Update (George Herald, 19 Nov 2026): contractor has moved on site (construction from 17 Nov; project cost given as R135m); a group of residents (incl. Adv Gert van Niekerk; Ward 18 committee) is circulating a petition and consulting lawyers about a possible interdict, citing location, traffic impact, no access to the traffic impact study and lack of consultation. WCED and George Municipality comment awaited.",
     "place": "Stander Street, George (Erf 6979)",
     "erf": "6979",
     "developer": "Western Cape Education Department; contractor H and I Construction",
@@ -973,6 +975,33 @@
     "location_source": "none (municipal-wide)",
     "first_seen": "2026-11-16",
     "located": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     22.4686039,
+     -34.0265178
+    ]
+   },
+   "properties": {
+    "id": "4db126036353",
+    "headline": "Moeggeploeg (Sea View) informal settlement: sanitation complaints; municipality plans upgrade pending provincial approval and funding",
+    "date": "2026-11-19",
+    "outlet": "George Herald",
+    "url": "https://www.georgeherald.com/News/Article/Local-News/moeggeploeg-se-toilette-onder-die-loep-202611180200",
+    "also_urls": [],
+    "summary": "Community leader Ernest Damons says 86 households next to Willow Street share only 8 working toilets. George Municipality says 3 sewer-connected toilets fail due to insufficient pipe fall and will be replaced by chemical toilets meanwhile; the permanent fix extends the sewer connection across the newly built main road to an existing manhole. The municipality plans to upgrade the informal settlement (more services), subject to project approval and funding from the WC Department of Infrastructure; no timeframe. (Afrikaans article.) Watch: public informal-settlement upgrade, no professional appointment or site plan named.",
+    "place": "Moeggeploeg informal settlement, Sea View (Willow Street), George",
+    "erf": "",
+    "developer": "George Municipality; WC Department of Infrastructure (funding)",
+    "classification": "Future development to watch",
+    "map_link": "",
+    "first_seen": "2026-11-23",
+    "located": true,
+    "location_source": "Nominatim: Willow Street, Pacaltsdorp/Seaview, George (approximate street point; settlement not geocoded)"
    }
   }
  ]
